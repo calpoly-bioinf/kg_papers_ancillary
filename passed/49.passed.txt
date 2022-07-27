@@ -1,0 +1,134 @@
+Michael Behrman a, Roland Linder b, Amir H. Assadi a, Brett R. Stacey c, Misha-Miroslav Backonja d,* Wider use of pain assessment tools that are speciﬁcally designed for certain types of pain – such as neuropathic pain – contribute an increasing amount of information which in turn oﬀers the opportunity to employ advanced methods of data analysis.
+In this manuscript, we present the results of a study where we employed artiﬁcial neural networks (ANNs) in an analysis of pain descriptors with the goal of determining how an approach that uses a speciﬁc symptoms-based tool would perform with data from the real world of clinical practice.
+We also used traditional statistics approaches in the form of established scoring systems as well as logistic regression analysis for the purpose of comparison.
+Our results conﬁrm the clinical experience that groups of pain descriptors rather than single items diﬀerentiate between patients with neuropathic and non-neuropathic pain.
+The accuracy obtained by ANN analysis was only slightly higher than that of the traditional approaches, indicating the absence of nonlinear relationships in this dataset.
+Data analysis with ANNs provides a framework that extends what current approaches oﬀer, especially for dynamic data, such as the rating of pain descriptors over time.
+All rights reserved.
+Pain assessment and characterization is the main focus of both the clinical and laboratory behavioral study of pain.
+It is based on patients’ ability to provide descriptive statements about qualities of pain and other associated abnormal sensations through clinical history, assessment instruments, and pain intensity ratings.
+The validity of a variety of pain intensity ratings has been investigated in numerous studies over the past few decades.
+Although pain intensity ratings scales have been validated, an emerging consensus warns that simple pain ratings carry many hidden individualized meanings for each particular patient rather than generalizable information about each speciﬁc sensation (Williams et al. , 2000).
+Conceptually, pain descriptors and symptoms that they represent would seem to oﬀer more speciﬁc information.
+This is well recognized in the 1090-3801/$32 � 2006 European Federation of Chapters of the International Association for the Study of Pain.
+All rights reserved.
+001 clinical arena, but it is yet to be proven that this information contributes to an improvement in pain assessment, especially when attempts are made to utilize speciﬁc pain descriptors for elucidation of underlying mechanisms.
+The development of speciﬁc questionnaires such as the Neuropathic Pain Questionnaire (NPQ) (Krause and Backonja, 2003) for the assessment of neuropathic pain, has advanced pain research.
+At the same time detailed questionnaires require investigators to deal with signiﬁcant increases in the amount of self-report data.
+To facilitate this task, summary scores help diﬀerentiate neuropathic pain (NP) from non-neuropathic pain (nonNP).
+ANN are assumed to oﬀer an advantage in dealing with nonlinear relationships that may exist among pain descriptors, i. e. , relationships that do not obey a relation like ‘‘the higher descriptor A the higher descriptor B’’.
+For instance, the majority of biological phenomena are nonlinear, e. g. , most relations between hormones and their eﬀects are considered nonlinear, as are all events that are subject to threshold, such as neuronal spiking (Fallahati et al. , 2001, 2002).
+Thus, the objective of the present study is to evaluate if ANN can improve upon current scoring systems.
+Since the ANN training set and the established scoring systems are based upon diﬀerent patient data, logistic regression (LR) is used on the same data as the ANN.
+By employing LR, a conventional statistical method, we are able to establish to what extent nonlinearities are important in the data.
+Artiﬁcial Neural Networks have emerged as a powerful tool for solving statistical regression and pattern classiﬁcation problems in a multitude of domains: for comprehensive state-of-the-art expository surveys (Arbib, 2002), for comprehensive treatment (Prı´ncipe et al. , 2000), and for biological pain networks (Devor, 2002).
+The main concept of the ANN is step-wise improvement of the estimates for model parameters, so that the pattern classiﬁcation errors are minimized.
+The heuristics behind most variants of ANN are loosely based on networks of biological neurons in which Hebb’s plasticity mechanism is regarded as the basis for learning.
+The model parameters are reminiscent of the strength of synaptic messages passing among neurons.
+Step-wise adjusting of the parameters is called training the network, and often is implemented via a popular architecture called a multi-layer perceptron (MLP).
+To train an MLP, an eﬃcient algorithm called Back Propagation (Rumelhart et al. , 1986; Prı´ncipe et al. , 2000) has been adapted and reﬁned in dozens of ways.
+Numerous properties of neural network models, such as adaptation and robustness (Haykin, 1999; Prı´ncipe et al. , 2000; Devor, 2002), complement traditional statistical methods, and in some cases such as non-para metric regression, ANN is the preferred methods of data analysis.
+Patients from two academic pain clinics were recruited for this study: University of Wisconsin Hospital and Clinics in Madison, Wisconsin and Oregon Health and Science University (OHSU) in Portland, Oregon.
+The respective institutional review boards at each institution approved the study, which was conducted from 2000 to 2002.
+All new patients presenting to the respective pain clinics with chronic pain of six months or longer duration were approached to participate in the study and those who signed consent forms were given a set of questionnaires.
+The questionnaires included an early version of the Neuropathic Pain Questionnaire (NPQ) and the Neuropathic Pain Scale (NPS).
+The early version of NPQ was utilized because it was the only version available at the time.
+The later version of NPQ was the result of additional analysis and revisions that were performed at a later date (Krause and Backonja, 2003).
+Patients, who had more than one component of pain, such as radicular pain in the leg as well as mechanical low back pain, were asked to concentrate on and rate the most severe component of their pain.
+This procedure is in accord with the procedures suggested by the literature (Backonja and Stacey, 2004; Bennett, 2001; Rasmussen et al. , 2004).
+Patients were evaluated by pain fellowship-trained pain clinicians with pain medicine certiﬁcation.
+Medical and pain diagnoses as well as classiﬁcation of patients’ primary pain into neuropathic or non-neuropathic were made on the basis of comprehensive medical and pain history, physical examination and laboratory tests.
+The clinical pain diagnosis for each patient served as the accepted correct diagnosis for this study.
+The results of the neuropathic pain-speciﬁc questionnaires (NPS and NPQ) were not known to the examiners at the time of visit and were not used as the basis of diagnosis.
+The primary criterion for the diagnosis of neuropathic pain was the presence of pain accompanied by sensory and motor abnormalities or only sensory abnormalities, in patients with an appropriate history consistent with a neurological injury or disorder.
+For patients who experienced pain that was thought to be due to co-existing neuropathic and non-neuropathic pain mechanisms, such as radicular low back pain, classiﬁcation was made on the basis of the most predominant component of pain.
+Patients were excluded if they had a condition that could not be diagnosed or receive a mechanistic classiﬁcation (neuropathic vs. non-neuropathic), if they could not speciﬁcally rate their pain, if they had diﬀuse totalbody pain, or if incomplete medical records compromised our ability to diagnose the patient’s condition.
+Scoring systems The Neuropathic Pain Questionnaire (NPQ), including early version used in this study, was developed previously using factor analysis and discriminant analysis on 382 patients with purely neuropathic and non-neuropathic pain (Krause and Backonja, 2003).
+We employed this scoring system on the present data to compare scoring results with the LR and ANN results.
+Additionally, we created an ad hoc scoring system for the Neuropathic Pain Scale (NPS) as described by Argoﬀ et al. (2004).
+According to Argoﬀ et al. , the NPS mean composite scores from all 10 items were used to evaluate pain reduction.
+We used the standard deviations they reported as a cutoﬀ point to create neuropathic (greater than 42) and non-neuropathic (42 or less) groups.
+Ordinal variables, e. g. , those from the NPQ and NPS, were treated as linear variables.
+A linear ﬁt is regarded as the natural approach when expecting a monotone eﬀect of the ordinal covariate (Agresti, 1990).
+Thus, only evaluating continuous variables, the two-tailed Wilcoxon test for two independent samples (Mann–Whitney U test) was employed to reveal variables that possibly enable a helpful diﬀerentiation between NP and nonNP.
+The multivariate analysis was performed by a logistic regression (LR) model, the classical approach for a binary outcome, as well as by an artiﬁcial neural network (ANN), a method that is assumed to detect not only linear but also nonlinear relationships between the predicting variables and the dependent variable (NP, nonNP) as well as relationships between the predicting variables.
+Comparable results of both methods would indicate that nonlinear relationships are of no importance for the present classiﬁcation problem.
+Otherwise – in case the ANN should outperform the LR approach – nonlinearities must be considered.
+Artiﬁcial neural networks ANNs are computer-based techniques which have been frequently applied for classifying clinical data and patients (Dybowski, 2001; Malmgren et al. , 2000).
+ANNs use nonlinear mathematical equations to succes sively develop meaningful relationships between input and output variables through a learning process.
+They have a ‘‘learning’’ or ‘‘training phase’’ and a ‘‘recall phase’’.
+In the learning phase, the relationships between the diﬀerent input and output variables are established by adaptations of the weight factors assigned to the connections between the layers of artiﬁcial neurons.
+This adaptation is based on rules that are set in the learning algorithm.
+At the end of the learning process, the weight factors are ﬁxed.
+In the recall phase, data from cases not previously interpreted by the network are entered, and an output is calculated based on the above-mentioned, and now ﬁxed, weight factors.
+Diagrammatic representation of a standard feedforward network is given in Fig.
+Data are entered at the input neurons and further processed in the hidden layer and output layer.
+Features were fed into a feedforward network implemented in a prototype called ACMD, standing for ‘‘Approximation and Classiﬁcation of Medical Data’’ (Microsoft Visual C++, Oﬃce Software International, USA) (Linder and Po¨ppl, 2001), which is in principle based on a multilayer perceptron (Rumelhart et al. , 1986), using adaptive propagation (Linder et al. , 2000) for automatic learning.
+Each of ﬁve networks were arranged as an ensemble, which makes them more robust than single networks and more suitable for learning with only a small amount of data (Bishop, 1995).
+To make the learning less susceptible to so-called overﬁtting (Geman et al. , 1992), a strategy known as ‘‘Early Stopping’’ was used (Prechelt, 1998).
+ACMD comprises a number of further strategies both improving the generalization performance and accelerating the convergence speed.
+Several benchmarks give evidence that ACMD provides an excellent tool for learning feedforward networks.
+For details please see ‘‘ACMD: A practical tool for automatic neural net based learning’’ (Linder and Po¨ppl, 2001).
+Structure of ANN used for the diﬀerentiation of NP and nonNP patients: as an input pain descriptors are entered that result from the Neuropathic Pain Questionnaire (NPQ) and the Neuropathic Pain Scale (NPS), respectively.
+This information is forwarded to a maximum of n hidden neurons.
+The intermediate results of the hidden neurons are forwarded to output neurons representing neuropathic pain (NP) and non-neuropathic pain (nonNP).
+Binary logistic regression inclusive feature selection was calculated by the software SPSS V. 11.
+Exclusively default settings were chosen.
+In a resulting model, the predicted value bP ðyÞ of a patient was calculated by bP ðyÞ ¼ 1 1 þ e�ðb0þb1�x1þb2�x2þ���þbp�xpÞ where bi denotes the parameters estimate for the ith variable.
+As illustrated by the above equation, the LR approach assumes no interdependencies between the predicting variables and only linear relationships.
+For both methods, validation was done by 5-fold cross-validation using 4/5 of all cases for specifying each classiﬁcation method and testing with the remaining cases.
+By performing ﬁve rounds of allocation, every case is used once for the purpose of validation.
+Results The patients’ mean age was 46.
+A total of 304 patients entered the study.
+Of the 165 who were enrolled complete data was available for 155 and they were classiﬁed as either predominantly neuropathic pain (n = 91) or non-neuropathic (n = 64).
+For 114 patients for whom duration of pain was established on the basis of a speciﬁc date of pain onset, there was an average duration of 78.
+Our clinics see many patients with neuropathic pain and the subjects’ diagnoses reﬂected our patient populations: post-traumatic neuralgias including complex regional pain syndrome type I and II, radiculopathies, a wide variety of peripheral neuropathies, post-herpetic neuralgia, trigeminal neuropathy, and many etiologies of central pain syndrome.
+Non-neuropathic pain included many diﬀerent diagnoses and etiologies such as arthritis and other musculoskeletal conditions, abdominal and other visceral pain, and headaches.
+The NPQ scoring system performed similarly to the LR and ANN overall.
+However, it performed better with nonNP cases than with NP cases (Table 1).
+The NPS scoring system did not perform well.
+7% (91/155), i. e. , assigning all patients who suﬀer from NP, NPS performed worse than chance.
+Evaluating the predictive power of each variable, the Mann–Whitney U test revealed a statistically signiﬁcant diﬀerence regarding NP and nonNP in 12 of the 32 variables.
+Box-and-Whisker plots of the 12 variables in question are shown in Fig.
+As a consequence, none of the variables alone enables a suﬃcient distinction of the type of pain.
+Thus, both methods achieved a statistically signiﬁcant result (v2 test: p-value < 0. 001).
+The diﬀerence between the accuracies of ANN and LR is only 1. 3%.
+A two-tailed McNemar test showed that there is no signiﬁcance between the ANN and LR results (pvalue = 0. 832) (Table 2).
+Evaluating subsets of the patients comprising at least 13 cases, the predictive power greatly varies between the diagnostic sub-entities (Fig. 3).
+The degree of certainty with which the ANN is able to classify the diagnostic sub-entities is consistent with clinical experience.
+This study of non-selected chronic pain patients demonstrated that advanced methods of analysis, ANN and LR, performed slightly better in classifying patients with neuropathic pain than they did of those with non-neuropathic pain, when compared to the standard scoring of the NPQ.
+Our results are consistent with the notion that neuropathic pain symptoms could provide a reasonable level of certainty in the diagnostic Score NP correctly classiﬁed NonNP correctly classiﬁed Accuracy NPQ 65.
+and that many pain descriptors are necessary since no single descriptor is pathognomonic for neuropathic pain.
+These observations are in accord with those that lead to development of neuropathic pain tools, including the NPQ, the Leeds assessment of neuropathic symptoms and signs (LANSS pain scale) (Bennett, 2001) Fig. 2.
+Variables shown had p < 0. 01
+(Mann–Whitney U test) and for this reason they have the greatest diﬀerentiating power.
+To make the diﬀerent scaling of NPQ and NPS comparable, all variables are normalized into the interval [0, 10].
+The only reason to scale the y-axis from �2 to 12 is not to mask the ends of the whiskers of the Box-and-Whisker Plots.
+Outliers (*) and extreme values (�) have been marked.
+ANN: cases wrongly classiﬁed ANN: cases correctly classiﬁed LR: cases wrongly classiﬁed 38 12 LR: cases correctly classiﬁed 10 95 Pain correctly classified
+[%] and the Neuropathic Pain Symptoms Inventory (NPSI) (Bouhassira et al. , 2005), all of which were developed with the goal of diﬀerentiating neuropathic pain from non-neuropathic pain.
+The good performance of the NPQ scoring system reinforces previous studies showing this to be a valuable tool in identifying neuropathic pain (Krause and Backonja, 2003).
+Accuracy obtained by the NPQ scoring system (68. 4%) is very similar to the 69.
+Since the NPQ scoring system was based on 382 patients and therefore on a larger database than the ANN (155 patients), one may speculate that the ANN could have been somewhat more accurate using the same large database for training.
+This assumption is supported by the results of the LR approach based on 155 patients that is worse than the NPQ.
+However, a direct comparison of ANN and LR does not show a signiﬁcant advantage of the ANN technique.
+This indicates that nonlinear relationships between pain descriptors do not play a signiﬁcant role in classifying NP and nonNP patients for this dataset.
+NPS was not designed to be a discriminative tool and consequently it is not surprising that NPS did not perform well in classifying NP and nonNP patients.
+The degree of certainty with which the ANN is able to classify the diagnostic sub-entities is consistent with clinical experience.
+For example, with neuropathic pain due to polyneuropathy (NP polyneurop) or causalgia (NP causalgia), where primary pathologic and pain mechanisms are due to direct neurological involvement, classiﬁcation is more likely to be correct even if only on the basis of symptoms severity.
+In contrast, neuropathic pain due to radiculopathy (NP-radic) which is frequently associated with low back pain, is less likely to be classiﬁed correctly on the basis of the symptoms severity rating alone, in spite of patients’ best eﬀorts to rate only that particular pain.
+The presence of non-neuropathic pain certainly increases the challenge of accurately classifying the neuropathic pain based solely on symptoms.
+The main methodological ﬁnding of our study is that nonlinearities within the data obtained at one time point are not signiﬁcant since the ANN and LR results are roughly equivalent.
+This ﬁnding is reinforced by the rough equivalence of the ANN and LR results with the NPQ scoring system.
+Future work will evaluate if this is also true for data recorded over a period of time.
+Also, the diagnostic sub-entity classiﬁcation results (Fig. 3) show that patients who exhibit mixed NP and nonNP traits are diﬃcult to classify with data from NPQ and NPS.
+In comparison, cases with diagnoses which are ‘‘classical’’ are relatively easily classiﬁed.
+This likely indicates that more data for the diﬃcult-to-classify cases are needed, as well as new methods for identifying whether a given patient is in a diﬃcult-to-classify category need to be employed.
+We have also shown that modern methods, such as the ACMD ANN package, handle pain classiﬁcation problems as well as or better than methods established in pain research, such as LR and the NPQ scoring system.
+Neuropathic pain is a new and still evolving area of pain research and classiﬁcation of patients based on clinical presentation and according to diagnostic criteria is undergoing debate (Backonja, 2003).
+Consequently, at times questions are raised regarding the classiﬁcation of pain disorders such as CRPS type I.
+In this study, CRPS type I was included into neuropathic pain group on the basis of sensory abnormalities of not only positive but also negative sensory signs, such as loss of sensation to one or more sensory stimulation modalities, as well as motor ﬁndings of weakness and movement disorders, such as tremor (Stanton-Hicks, 2003).
+The clinical diagnostic process is complex and draws from multiple levels of clinical evaluation.
+However, this degree of accuracy derived from pain descriptors and pain qualities alone is statistically signiﬁcant and points to an important area for further exploration.
+It is our belief that continuing to employ methods such as ANN, which are able to take advantage of nonlinearities within data, is important to further research, especially as more complete patient proﬁles are collected.
+We are conﬁdent that the methods presented here are appropriately suited for that type of data.

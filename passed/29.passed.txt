@@ -1,0 +1,105 @@
+a r t i c l
+e i n f
+o Skin thermal pain is one of the most common problems for humans in everyday life.
+The understanding of the underlying physical mechanisms is still not clear, and modeling of them is very limited.
+In this paper, a holistic mathematical model for quantifying skin thermal pain sensation is developed.
+The model is composed of three interconnected parts: peripheral modulation of noxious stimuli, which converts the energy from a noxious thermal stimulus into electrical energy via nerve impulses; transmission, which transports these neural signals from the site of transduction in the skin to the spinal cord and brain; and modulation and perception in the spinal cord and brain.
+With this model, a direct relationship is built between the level of thermal pain sensation and the character of noxious stimuli.
+All rights reserved.
+Skin is the largest single organ of the body.
+It consists of several layers and plays a variety of important roles including sensory, thermoregulatory and host defense etc.
+However, in an extreme environment, an uncomfortable feeling or pain sensation is evoked due to heat or cold: the skin fails to protect the body when the temperature lies outside of the normal physiological range.
+In medicine, with advances in laser, microwave and similar technologies, various thermal therapeutic methods have been developed recently and widely used to cure disease/injury involving skin tissue; but the corresponding problem of pain relief has limited the further application and development of these thermal treatments.
+As one of the most important sensations, pain has been long studied over a range of scales, from the molecular level (ion channel) to the entire human neural system level.
+Thermal stimulation, as one of the three main pain stimulators (thermal, mechanical and chemical), has been widely used in the study of pain, as in the examination of tissue injury and sensitisation mechanisms, and in the quantiﬁcation of therapeutic effects due to pharmacological, physical, and psychological interventions.
+However, the understanding of the underlying mechanisms is still far from clear.
+One reason is that pain is inﬂuenced by many factors, including physiological, such as stimulus intensity and duration, and psychological factors such as attention and empathy.
+The utilization of computational models in the ﬁeld of pain has been very limited, with previous attempts at pain modeling focusing mainly on acute pain.
+There are nonetheless strong arguments for mathematical modeling [1,2], it can handle extremely complex theories and can be used to predict behaviors which have perhaps previously gone unnoticed.
+The method is also non-invasive.
+Several mathematical models have been developed at different levels: at the molecular level and cellular level [1,3–9]; and at the level of neuron network [10,11].
+None of these models have correlated the external stimulus parameters directly with the pain sensation level, and no transmission process has been considered.
+For example, the ‘‘gate control theory” has been used to extrapolate the relevant features of pain and has been translated into a mathematical model 0096-3003/$ - see front matter � 2008 Elsevier Inc.
+All rights reserved.
+by Britton and Skevington [1,7–9], but it only considers the perception and modulation processes of pain sensation at spinal cord and brain, without considering the transduction process occurring within the skin tissue.
+These issues are addressed in this study.
+The focus of this paper is placed upon the superﬁcial nociceptive acute pain.
+Neuropathic pain and chronic pain as well as psychological factors that inﬂuence the pain are not modeled at present stage.
+In the following sections, the mechanisms of skin thermal pain are ﬁrst described with emphasis on the transduction function of skin nociceptors; the development of the model is presented next; ﬁnally, a simple case of surface heating is used for the preliminary analysis of thermal pain.
+The physiology of pain has been studied extensively and a detailed description of the current understanding on this subject can be found in [12–15].
+The pain pathway is schematically shown in Fig.
+and can be simply described as: (1) transduction: when a stimulus is applied to the skin, the nociceptors located there will trigger action potentials by converting the physical energy from a noxious thermal, mechanical, or chemical stimulus into electrochemical energy; (2) transmission: the signals are then transmitted in the form of action potential chains (similar to pulse trains) via nerve ﬁbers from the site of transduction (periphery) to the dorsal horn of the spinal cord, which then activates the associated transmission neuron; (3) perception: the appreciation of signals arriving in higher structures as pain; (4) modulation: descending inhibitory and facilitory input from the brain that inﬂuences (modulates) nociceptive transmission at the level of the spinal cord.
+Nociceptors, the special receptor for pain sensation, are the ﬁrst cells in the series of neurons leading to the sensation of nociceptive pain.
+Nociceptors transduct mechanical, chemical and/or thermal energy to ionic current (noxious stimuli into depolarizations that trigger action potentials), conduct the action potentials from the peripheral sensory site to the synapse in the central nervous system, and convert the action potentials into neurotransmitter release at the presynaptic terminal (frequency modulation)
+Nociceptors in skin are generally one of three kinds of peripheral nerves: myelinated afferent Ad ﬁbers and Aa ﬁbers, as well as unmyelinated C afferent ﬁbers, while thermal pain sensations are mediated mainly by both thin myelinated Ad- and unmyelinated C-ﬁbers
+Many unmyelinated C-ﬁbers can be traced far into the epidermal layer.
+The study of myelinated mechanical nociceptor endings in cat hairy skin showed that the free nerve endings of pain receptors exist around the depth of 50 lm [18], while the receptor depth in the hairy skin of monkeys estimated from responses to ramped stimuli ranged from 20 to 570 lm with a mean of 201 lm [19,20].
+All the essential functions of nociceptors depend on ion channels [12,16], including heat activated channels, capsaicin receptors, ATP-gated channels, proton-gated channels or acid-sensing channels, nociceptor-speciﬁc voltage-gated Na+ channels, mechanosensitive channels, etc.
+In spite of these different channels, they are generally gated by three different methods, namely, thermal (hot or cold), mechanical, and chemical, with thresholds of �43 �C and �0.
+When a noxious stimulus is applied to a nociceptor (larger than the threshold), the corresponding ion channels will be opened, resulting in a current, thereby triggering the action potential.
+According to the above description of pain pathway, a holistic model of skin thermal pain is developed in this section that is composed of three sub-models: model of transduction, model of transmission, and model of perception and modulation.
+The schematic of the holistic model is shown in Fig.
+The details of each sub-model are given below.
+Thermomechanical model of skin tissue It is now accepted that thermal pain is determined by the temperature at the location of nociceptors, not at the skin surface.
+When the skin is heated to a temperature beyond the threshold (�43 �C), thermal damage of skin tissue begins accumulate.
+The thermal damage causes cells to break down, releasing a number of tissue byproducts and mediators, which will activate and sensitize the nociceptors.
+Furthermore, thermally induced stresses due to non-uniform temperature distributions may also lead to the sensation of thermal pain, in addition to the pain generated by heating alone.
+Supporting evidence shows that, for the same level of nociceptor activity, a heat stimulus evokes more pain than a mechanical stimulus, and that tissue deformation due to heating and cooling may explain the origins of pain [21,22].
+A thermomechanical model of skin tissue has been developed in our previous study [23].
+The skin is treated as a layered – ‘‘laminated” – material according to its real structure, whose overall properties are assembled in a composite manner, as shown in Fig.
+Its thermomechanical behavior is simpliﬁed as a ‘sequentially coupled’ problem, in other words, the mechanical and thermal properties are independent of each other.
+Solutions of the temperature, thermal damage and thermal stress ﬁelds are given next.
+The temperature ﬁeld can be obtained by solving the bioheat transfer model of skin tissue.
+For example, for a one-layer skin model under surface contact heating at temperature Ts, the closed-form solution of temperature at the location of nociceptor, Tn, can be obtained as [23]: m¼1 bm sinðbmðzn þ HÞÞ 1 ab2 m þ -bqbcb qc 1 � e�ab2 mt�-bqbcb qc t � � ; ð1Þ where T0ðzÞ is initial temperature ﬁeld in the tissue with z ¼ 0 corresponding to skin surface; q, c, k are the density, speciﬁc heat and thermal conductivity of skin tissue, respectively;
+qb, cb are the density and speciﬁc heat of blood, -b is the blood perfusion rate; a ¼ k=qc is thermal diffusivity of skin tissue; H is total thickness of skin tissue; and bm ¼ mp=
+DegðtÞ ¼ 1 � expð�XðtÞÞ:
+ð3Þ X is the dimensionless indicator of damage, Deg is the degree of thermal damage (Deg ¼ 0 equals no damage while Deg ¼ 1 equals fully damaged), A is a material parameter (frequency factor), Ea is the activation energy, and R ¼ 8:314
+J=mol K is the universal gas constant.
+r is the in-plane stress; subscript ‘‘k” denotes the kth layer of skin; E ¼ E=ð1 � m2Þ, �k ¼ ð1 þ mÞk, where E is the Young’s modulus, m is the Poisson’s ratio, k is thermal expansion coefﬁcient; C1, C2, C3 are constants depending on the relative thickness of each layer of skin tissue.
+Current As previously discussed, the pain signal starts from the current induced by the opening of ion channels in nociceptors.
+Since ion channels are generally gated by three different methods (thermal, mechanical and chemical), there are correspondingly three different currents.
+The total current can be calculated as: The heat current, Iheat, is assumed to be a function of nociceptor temperature, Tn, and thermal pain threshold, Tt, given as: Here, Tt is assumed to be 43 �C [24,25].
+The chemical current, Ichem, is assumed to depend on the thermal damage degree of skin tissue, Deg: The mechanical current, Imech, is assumed to be a function of the stress at the location of nociceptor, rn, and mechanical pain threshold, rt: where rt is assumed to be 0.
+Frequency modulation When the evocated current overpasses the threshold, an action potential is generated.
+It is now accepted that the intensity of external stimulation is carried through the frequency of these impulses, fs, not the exact magnitude or shape of the signal, which can be calculated as: Unfortunately, there exists no study to quantify the current–frequency relation.
+We need, therefore, to choose a model for the generation of an action potential.
+Although there has been no relative analysis on nociceptor kinetics, all neurons have been found to behave qualitatively similar to that described by the Hodgkin–Huxley (H–H) model of nerve excitation [27].
+Therefore, the H–H model is adopted here to model the frequency response of skin nociceptors.
+Mathematically, the H–H model can be described as: dVmem dt ¼ Ist þ gNam3hðENa � VmemÞ þ gKn4ðEKNa � VmemÞ
+þ gLðEL � VmemÞ; ð10Þ where Vmem is the membrane potential (mV), which is positive when the membrane is depolarized and negative when the membrane is hyperpolarized; ENa, EK and EL are the corresponding reversal potentials for sodium, potassium and leakage current components, given by the Nernst equation (all in mV), respectively; gNa, gK and gL are the maximal ionic conductance through sodium, potassium and leakage current components (all in mS/cm2), respectively; t is time (ms); Cmem is membrane capacity per unit area (lF/cm2); Ist is the stimulation-induced current density, as deﬁned by Eq.
+(5), which is positive when the current is outward (lA/cm2); INa, IK and IL are the sodium, potassium and leakage current components (lA/cm2), respectively.
+Each of the three ionic currents (INa, IK and IL) is driven by an electrical potential difference and a permeability coefﬁcient, or conductance [27].
+The conductances of the ionic currents are regulated by voltage dependent activation and inactivation variables, known as gating variables (m, n and h), which are given as [27]: dx dt ¼ axð1 � xÞ � bxx: ð11Þ
+Here, x can be either m, n and h, which are voltage- and time-dependent parameters; ax and bx are rate constants (in s�1).
+ax and bx can be approximated from experiments [27] as: an ¼ �0:01ðVmem þ 50Þ exp½�ðVmem þ 50Þ=10� � 1 ; bn ¼ 0:125 exp �ðVmem þ 60Þ 80 am ¼ �0:1ðVmem þ 35Þ exp½�ðVmem þ 35Þ=10� � 1 ; bm ¼ 4 exp �ðVmem þ 60Þ 18 ah ¼ 0:07 exp
+�ðVmem þ 60Þ 20 � � ; bh ¼ 1 exp½�ðVmem þ 30Þ=10� þ 1: ð14Þ Here, the various constants are obtained empirically from experimental data [27], given as: Cm ¼ 1:0 lF=cm2, ENa ¼ 55 mV, EK ¼ �72 mV, xfac ¼ 1, gNa ¼ 120 mS=cm2, gK ¼ 36 mS=cm2, gL ¼ 0:3 mS=cm2.
+This model simulates the transmission of noxious stimulus triggered neural signals from the skin along the respective ﬁbers to spinal cord and brain.
+Since the stimulation intensity is carried through the ﬁring rate, or frequency, of these impulses, the actual shape, amplitude and duration of a single spike are not taken into account.
+The time for this transmission, tt, is obtained once the conduction velocity and the corresponding nerve length are determined.
+Nerve length ðLnÞ For simplicity, the present study only considers the case that the skin is subjected to a thermal loading restricted to a small area (i. e. , localized stimuli).
+Consequently, all ﬁbers connected with the skin nociceptors are postulated to have the same length.
+Here, a length of 1 m is chosen, approximately the distance between a ﬁnger and the spinal cord [28]: 3. 2.
+Conduction velocity ðvcÞ The conduction velocity ðvcÞ is found to be directly related to ﬁber diameter ðDÞ
+A linear relationship between vc and D is assumed: vc ¼ vcN ¼ cdD; ð16Þ where vcN is the conduction velocity under normal condition and cd is the coefﬁcient between diameter and velocity.
+In addition to ﬁber diameter, temperature also inﬂuences the nerve conduction velocity.
+For example, it has been found that the conduction velocity is reduced in a cold environment and the rate of conduction velocity reduction is identical for slow and fast ﬁbers [29,30].
+Thus, the conduction velocity, considering temperature effect, can be calculated as: where vcT is the velocity when the ﬁber is in an environment of temperature T, cT is the inﬂuence factor of temperature on the conduction velocity: cT is given by Paintal [29,30], which was obtained from experiments using cat.
+Here it is assumed that the resulting rules are also applicable to human peripheral nerves in view of their structural and functional similarities.
+Once the nerve length and conduction velocity are known, the transmission time can be calculated as: The theory of gate control [31] is employed here to describe the modulation and perception process of skin thermal pain.
+A schematic description of the theory is presented in Fig.
+In general, it is the small ﬁbers ðc; AdÞ that carry information about noxious stimuli whilst the role of large ﬁbers ðAbÞ is to carry information about less intense mechanical stimuli.
+As the signal from the ðc; AdÞ ﬁbers is routed through substantia gelatinosa (SG) to central transmission (T) cells and onwards, the double inhibition (indicated by the minus signs) actually strengthens the signal.
+The signal from the Ab ﬁbers, however, is diminished in strength when routed through SG.
+3 has been translated into a mathematical model by Britton and Skevington [1,7–9], given as: si _Vi ¼ �ðVi � Vi0Þ þ gliðxlÞ þ gmiðxmÞ ð19Þ 0:7 _
+Vi ¼ �ðVi þ 70Þ þ 60 tanhðhlixlÞ þ 40 tanhðfmðVmÞÞ ð20Þ se _Ve ¼ �ðVe � Ve0Þ þ gseðxs; VeÞ
+_Ve ¼ �ðVe þ 70Þ þ 40 tanhðhsexsÞ½1 þ 3 tanhð4f eðVeÞÞ� ð22Þ where subscripts i, e, t and m stand for inhibitory SG cell, excitory SG cell, T-cell and midbrain, respectively; sj is time constant, Vj is membrane potential; Vj0 is initial membrane potential; xj is ﬁring frequency; xl and xs are signals (frequency) from large and small ﬁbers, respectively; functions gjk represent the effects of inputs ðjÞ to a cell ðkÞ on its steady state slow potential; tanhð4f eðVeÞÞ is the NMDA (N-methyl-D-aspartic acid) component of the equation.
+The NMDA receptor has been argued to be responsible for phenomena in pain sensation such as wind-up, where the response of a neuron increases progressively as the neuron is repeatedly stimulated.
+hli and hse are the proportions of the inputs that pass through interneurons in the SG and correspondingly ð1 � hliÞ and ð1 � hseÞ are the proportions passing through to the T-cell.
+The output from the T-cell, Vt, is taken to be directly related to the pain level, such that if the T-cell exceeds its ﬁring threshold of �55 mV then the noxious signal is transmitted to the next relay point.
+If the noxious signals reach the cortex, they are perceived as pain [1].
+Results and discussion: case study For illustration, the applicability of the developed holistic thermal pain model is illustrated using a simple surface heating case.
+The skin surface initially at normal temperature of 37 �C is suddenly taken into contact with a hot source of constant temperature (50 �C) for 20 s. Using the previous skin thermomechanical model, the temperature history of nociceptor is obtained ﬁrst, which is then used as the input for the neural model.
+The nociceptors are assumed to be C ﬁbers with a conduction velocity of 1 m/s. The one-dimensional, three-layer skin model is used where effect of blood perfusion is only considered in the dermis layer.
+The relevant parameters of skin tissue used are summarized in Tables 1 and 2.
+The predicted membrane potential and frequency responses under stimulus of different nociceptor temperatures ðTnÞ are presented in Fig.
+4a, a good agreement has

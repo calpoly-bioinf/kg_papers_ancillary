@@ -1,0 +1,397 @@
+Sponsorships or competing interests that may be relevant to content are disclosed at the end of this article.
+a r t i c
+l e i n f o Recent human neuroimaging studies have investigated the neural correlates of either noxious stimulus intensity or reported pain.
+Although useful, analyzing brain relationships with stimulus intensity and behavior separately does not address how sensation and pain are linked in the central nervous system.
+In this study, we used multi-level mediation analysis to identify brain mediators of pain—regions in which trial-by-trial responses to heat explained variability in the relationship between noxious stimulus intensity (across 4 levels) and pain.
+This approach has the potential to identify multiple circuits with complementary roles in pain genesis.
+Brain mediators of noxious heat effects on pain included targets of ascending nociceptive pathways (anterior cingulate, insula, SII, and medial thalamus) and also prefrontal and subcortical regions not associated with nociceptive pathways per se.
+Cluster analysis revealed that mediators were grouped into several distinct functional networks, including the following: somatosensory, paralimbic, and striatal-cerebellar networks that increased with stimulus intensity; and 2 networks co-localized with ‘‘default mode’’ regions in which stimulus intensity-related decreases mediated increased pain.
+We also identiﬁed ‘‘thermosensory’’ regions that responded to increasing noxious heat but did not predict pain reports.
+Finally, several regions did not respond to noxious input, but their activity predicted pain; these included ventromedial prefrontal cortex, dorsolateral prefrontal cortex, cerebellar regions, and supplementary motor cortices.
+These regions likely underlie both nociceptive and non-nociceptive processes that contribute to pain, such as attention and decision-making processes.
+Overall, these results elucidate how multiple distinct brain systems jointly contribute to the central generation of pain.
+Published by Elsevier B. V. All rights reserved.
+The relationship between stimulus intensity and perception is lawful and robust in all perceptual domains, including pain [2,72].
+However, although higher stimulus intensities usually lead to greater pain, there is nearly always variability in the stimulus– response relationship.
+Pain perception is strongly inﬂuenced by spontaneous ﬂuctuations in arousal and attention [14,46,62], stimulus history [12,37,64], and other factors.
+Thus, a given stimulus intensity can be perceived or reported as painful or nonpainful depending on brain activity before [14,62], during [63], or after noxious stimulation [9,44].
+The purpose of the present study was to examine how variations in noxious stimulus intensity are transformed into variations in pain, focusing speciﬁcally on responses during noxious stimulation itself.
+In particular, we sought to identify regions that mediate stimulus effects on pain and those that do not respond strongly to noxious stimuli but nonetheless play supporting roles in pain genesis.
+Targets of spino-thalamo-cortical nociceptive pathways [32] and other nociceptive pathways (eg, spino-parabrachial and spino-reticular [83]) reliably track the stimulus intensity of painful events in human neuroimaging studies, including somatosensory (SI/SII), dorsal posterior [dpINS], anterior insular [aIns], and anterior cingulate [aCC] cortices and thalamus [5,35,60].
+There is broad consensus that these ‘‘intensity coding’’ regions also generally correlate with pain
+[25,76], although the stimulus–response function between brain response and pain report may differ depending on the region [15,20,38,48,63].
+Published by Elsevier B. V. All rights reserved.
+However, only a few studies have directly compared brain activity related to stimulus processing with activity related to pain, and ﬁndings are mixed on which areas are most strongly associated with each.
+One seminal study found that dpINS correlated preferentially with stimulus intensity and that aIns correlated preferentially with perceived pain [29], whereas another study found the opposite [6].
+In addition, these previous studies do not provide models of how stimulus-related brain activity and pain-related brain activity are linked.
+Although these studies identify correlates of either noxious stimulus intensity or pain perception, we know little about the brain processes that transform stimulus processing into pain, and which processes might contribute to pain independent of stimulus processing.
+We used whole-brain multi-level mediation analysis [7,80,81], a linear multivariate approach that relates stimuli, brain responses, and behavior in a single model, to understand the pathways that mediate the effects of noxious input on pain perception.
+We identiﬁed 3 classes of relevant brain processes: (1) mediator regions that link stimulus intensity with pain; (2) thermosensory regions that respond speciﬁcally to noxious input; and (3) pain-related regions that contribute to decisions about pain above and beyond the linear and nonlinear effects of noxious stimulus intensity and thus may reﬂect endogenous decisionmaking processes that contribute to variations in pain, such as arousal, attention, and magnitude estimation.
+We identify networks with distinct functional properties related to pain genesis, which could help create a clearer picture of the multiple systems involved in creating pain.
+This approach could also serve as a model for understanding sensory decision making in other perceptual modalities.
+Thirty healthy, right-handed participants were enrolled in the study.
+Participants were recruited from the New York metropolitan area through posted ﬂyers, advertisements on Craigslist, and if they had previously participated in studies in our laboratory and volunteered to be contacted for future research.
+All participants provided informed consent in accordance with the Declaration of Helsinki, as approved by the Columbia University Institutional Review Board.
+Preliminary eligibility was assessed with a general health questionnaire, a pain safety screening form, and a functional magnetic resonance imaging (fMRI) safety screening form.
+Participants reported no history of psychiatric, neurological, or pain disorders.
+Three participants completed calibration but did not undergo scanning because of technical problems with the heat equipment (2 participants) or discomfort with the MR environment (1 participant).
+The fMRI imaging sequence was incorrect for 1 additional participant, leaving a ﬁnal sample of 26 participants (9 female and 17 male, mean age = 27.
+Thermal stimulation was delivered to the volar surface of the left (nondominant) inner forearm using a 16 � 16-mm Peltier thermode (Medoc, Inc. ).
+Each stimulus lasted 10 seconds, with 1. 5-second ramp-up and ramp-down periods and 7 seconds at target temperature.
+Temperatures were individually calibrated for each participant using an adaptive staircase procedure.
+During calibration and during the fMRI portion of the experiment, participants rated stimulation on a continuous scale from 0 to 8 (0 = no sensation; 1 = nonpainful warmth; 2 = low pain; 5 = moderate pain; 8 = maximum tolerable pain).
+This scale has been used in previous studies in our laboratory [7,8] and provides measures of pain threshold and tolerance.
+It is similar to the 0 to 5 scale used by Bornhovd et al.
+We used a continuous visual analogue scale (VAS) during fMRI scanning, which provided further sensitivity to small ﬂuctuations in pain.
+The calibration procedure allowed us to derive each participant’s stimulus–response curve for the relationship between applied thermal stimulation and reported pain, and to identify sites on the forearm with similar nociceptive proﬁles (ie, the 3 with the lowest average residuals based on the predicted stimulus– response function).
+During the fMRI experiment, heat was applied to the 3 sites that responded most similarly to changes in temperature, and temperatures were selected for each individual based his or her dose–response curve.
+Institutional review board restrictions precluded us from applying temperatures higher than 48�C, so all participants were required to have maximum tolerable pain levels fall within the range of 42�C to 48�C. One participant exceeded this range (maximum predicted temperature based on calibration, 50�C) but was included in the experiment and received a maximum stimulus of 48�C.
+No participants reported maximum tolerable pain that fell below 42�C. fMRI images were acquired during 6 functional runs (8 trials per run, 48 trials).
+The thermode was placed on a different skin site for each run, with 2 total runs per skin site.
+The task design is shown in Fig.
+At the start of each trial, a square appeared in the center of the screen for 50 milliseconds, followed by a pair of faces [34].
+An emotional expression (Happy or Fearful) was presented for 33 milliseconds, masked by a neutral face presented for 1467 milliseconds.
+Face cues were evenly crossed with temperature.
+As the conceptual focus of the present article concerns the mechanisms that link changes in temperature with changes in pain, our mediation analyses collapse across the face cues to examine pain-evoked responses during noxious stimulation period as a function of temperature.
+To test whether face primes were ignorable here, we controlled for the effects of face cues (main effects and interactions with temperature) on regions identiﬁed in our mediation analysis.
+This assessed the possibility that masked emotional faces induced variability in the temperature– pain relationship.
+No main effects of face primes were found on the regions that we report here, and all results reported were signiﬁcant after controlling for face prime identity; thus, we do not report priming effects in detail.
+A full analysis of the face primes is awaiting replication and extension in future experiments, and is not the main focus of this article.
+Cue presentation was followed by a 6-second anticipatory interval during which a ﬁxation cross was presented on the screen.
+Thermal stimulation was then delivered via the thermode for 10 seconds (1. 5-second ramp up from baseline [32�C], 7 seconds at peak destination temperature, 1.
+5-second return to baseline) at levels calibrated to elicit ratings of nonpainful warmth (VAS rating = 1; mean = 40.
+8�C, standard deviation [SD] = 2. 03), low pain (VAS rating = 3; mean = 43.
+1�C, SD = 2. 10), medium pain (VAS rating = 5; mean = 45.
+1�C, SD = 1. 79), or high pain (VAS rating = 7; mean = 47.
+After thermal stimulation, a ﬁxation cross was presented for a 14-second ﬁxed interstimulus interval (ISI).
+The words ‘‘How painful?’’ then appeared on the screen for 4 seconds above an 8-point VAS.
+Participants rated the pain evoked by the preceding stimulus using an fMRI-compatible track-ball (Resonance Technologies, Inc. ) with resolution equivalent to the screen resolution (ie, approximately 600 discrete values between 1 and 8).
+The delay between pain offset and rating was included to maximize our ability to isolate pain-period responses using singletrial analysis.
+A 10-second ISI separated the rating period from the start of the next trial.
+In this report, we focus on brain responses evoked during the 10-second thermal stimulation period.
+Anticipatory responses and responses during the pain rating period were analyzed and reported for a subset of participants, along with heat-evoked responses, in a separate study [78] that used qualitatively different methods (pattern classiﬁcation, rather than mediation analysis) and thus provides complementary ﬁndings.
+Behavioral data were analyzed using custom code implementing a linear mixed-effects model in Matlab software (MathWorks, Natick, MA), and veriﬁed using the Mixed procedure in SAS 9.
+We modeled within-subject effects of Temperature and Masked Emotion prime on pain report, as well as the Temperature � Masked Emotion interaction.
+To test for nonlinear effects of temperature on pain, we log-transformed temperatures and ratings and tested a linear mixed-effects model in log space.
+Whole-brain fMRI data were acquired on a 1.
+Functional images were acquired with an echo-planar imaging sequence (TR = 2000 ms, TE = 34 ms, ﬁeld of view = 224 mm, 64 � 64 matrix, 3. 5 � 3.
+Each run lasted 6 minutes and 18 seconds (189 TRs).
+Stimulus presentation and data acquisition were controlled using E-Prime software (PST Inc. ).
+Before preprocessing, we identiﬁed global outlier time points by computing both the mean and the SD of values in each image for each slice.
+Mahalanobis distances for the matrix of mean values (1 per slice) � functional volumes were computed, and images with a value greater than 3 SDs were considered to be outliers.
+The same procedure was used for SD values.
+Outlier time points were modeled as indicator vectors at the level of single trial estimation (see below, ‘‘Single trial analysis’’).
+We also used principal components analysis (PCA) as an approach to noise reduction, Fig. 1.
+On each trial, participants saw a cue, followed by a 6-second anticipatory delay.
+They then experienced 10 seconds of noxious thermal stimulation at temperatures calibrated to elicit ratings of nonpainful warmth, low pain, moderate pain, or high pain.
+After a delay, participants rated the pain that they had experienced.
+Analyses examine brain responses during noxious stimulation, using area under the curve (AUC) as a measure of evoked response.
+Our mediation analyses use linear mixed models to examine the dynamic, trial-by-trial relationship between objective stimulus (left, X; temperature), voxelwise stimulus-evoked responses (bottom, M; AUC estimates from single trial analysis), and pain experience (right, Y; pain report).
+Top, path c/c0’: Does temperature affect perceived pain as measured by trial-by-trial pain reports?
+Path c reﬂects the total relationship between predictive cue and reported pain on medium trials, and path c0 reﬂects the direct behavioral relationship, controlling for activity in the mediator—in this case, a brain voxel or region.
+Left: Path a (‘‘Temperature effects’’) provides inferences on whether brain voxels are modulated by noxious input (Fig.
+Right: Path b (‘‘report-related responses’’) provides inferences on whether brain activity in each voxel predicts trial-by-trial pain reports, controlling for temperature (Fig. 2B).
+To supplement the standard linear model, we controlled for nonlinear effects of temperature when assessing path b.
+Middle: The mediation effect (c – c0) provides inferences on whether brain voxels explain a signiﬁcant amount of the covariance between temperature and perceived pain (Figs. 3 and 4).
+We were most interested in testing for effects within the a priori pain-processing brain network.
+We created an independent localizer using a mega-analytic approach across 4 different studies of noxious thermal stimulation (n = 114; see Methods) to identify regions associated with pain and nociception.
+In brief, standard PCA was used to deﬁne 10 components expressed across the brain.
+A task-related design matrix was created using the timing of the fMRI paradigm.
+Cue, heat, and rating onsets were modeled with boxcars representing event duration and convolved with SPM’s canonical hemodynamic response function plus time and dispersion derivatives.
+A nuisance-related design matrix was also constructed from the time series of global outlier time points and motion parameters.
+For each run, task- and nuisance-related predictors were regressed on each component time series, which provided correlation coefﬁcients for how nuisance related or task related each component was.
+The ratio between correlation coefﬁcients was used as a ﬁrst step in determining whether each component was artifactual and should be removed: No components were removed that had a task-related R2 value greater than 0.
+1, or whose ratio of nuisance-to-task was less than 2.
+Components that ﬁt these criteria were then visualized both spatially (pattern of weights across voxels) and temporally (average activity across time).
+Trained research assistants carefully inspected the components, and removed only those components that were clearly artifactual (eg, those expressed only at the edge of the brain, those that included an obvious single spike, etc. ).
+An average of 1. 09 components per run was removed per subject (SD = 0.
+After PCA denoising, functional images were slice-acquisitiontiming and motion corrected using FSL (FMRIB’s Software Library; http://www. fmrib.
+Structural T1-weighted images were coregistered to the ﬁrst functional image for each subject using an iterative procedure of automated registration using mutual information coregistration in SPM5 (Wellcome Trust Centre for Neuroimaging, London, UK) and manual adjustment of the automated algorithm’s starting point until the automated procedure provided satisfactory alignment.
+Data were smoothed with an 8-mm–full width at half maximum Gaussian smoothing kernel using SPM5.
+Structural images were normalized to MNI space using a genetic algorithm (GA)–based normalization.
+This approach is a reﬁnement of the standard SPM5 warping and improves intersubject registration, and is described in detail elsewhere
+We note that because we started with a group mean registered to MNI space, the resulting warped images were still registered with MNI space.
+Normalized functional images were interpolated to 2 � 2 � 2-mm voxels.
+We used single trial analysis to elicit a measure of brain response (eg. , area under the curve) to each trial, in each voxel, for each subject.
+Our method is described in detail elsewhere [7].
+In brief, we quantiﬁed single-trial response magnitudes by constructing a GLM design matrix with separate regressors for each trial, as in the ‘‘beta series’’ approach of Rissman et al.
+However, we used a ﬂexible basis set to model each trial, thus allowing the shape of the modeled hemodynamic response function (HRF) to vary across trials and voxels.
+The basis set consisted of 3 curves shifted in time and was customized for thermal pain responses based on previous studies [47].
+The positions of the 3 basis functions were ﬁxed in time relative to trial onset, and we allowed amplitude to vary to construct a ﬁtted response on each trial.
+We evaluated the height, duration, delay-to-peak, and area under the curve (AUC) of each trialwise ﬁtted response.
+We chose to use the AUC of each ﬁtted response (for each trial within each voxel) as a summary estimate of pain-period activity, as noxious heat has been shown to inﬂuence not only amplitude but also the duration of the evoked HRF [47], and thus the AUC captures these joint effects better than standard beta regressor amplitudes.
+When using a single-trial approach, it is common for some trials to be contaminated by movement or other artifacts.
+To mitigate such artifacts, we calculated trial-by-trial variance inﬂation factors (a measure of design-induced uncertainty due, in this case, to collinearity with nuisance regressors).
+Any trials with variance inﬂation factors that exceeded 2 or whose whole-brain AUC estimates exceeded 3 SDs from the mean were excluded from subsequent analyses (mean = 2.
+69, SD = 2. 07, range =
+We used whole-brain multi-level mediation to examine the relationship between trial-by-trial changes in temperature (X), heat-evoked responses within a voxel (M), and reported pain (Y), as illustrated in Fig.
+Our methods have been described in detail in previous work [7,80,81].
+The mediation approach is complementary to recent attempts to develop pain-predictive brain patterns using machine learning [16,18,52,66,78].
+Whereas machine learning integrates activity across many regions into patterns that predict a single outcome variable (eg, pain reports), the present multivariate approach relates responses within voxels to both noxious input and pain.
+We then address the complexity of these relationships by identifying multiple networks that make separate contributions to pain (see ‘‘Network analysis,’’ below).
+The mediation analysis presented here includes the following tests: (1) whether changes in temperature inﬂuence activation within a voxel (measured by AUC) during heat (path a); (2) whether heat-evoked responses are correlated with pain reports, controlling for temperature (path b); and (3) whether the overall relationship between temperature and pain report (path c) decreases when controlling for heat-evoked responses within a voxel [c-c0, equivalent to a⁄b+cov(a,b)].
+This ﬁnal test is a test of mediation.
+The interpretation of a mediator is that there is an indirect pathway through this region that links changes in external stimuli with subjective responses, and that if a mediator were disrupted, the stimulus–response relationship would be diminished or abolished entirely.
+We used bootstrap tests to test the signiﬁcance of the mediation effect and each individual path.
+Bootstrap testing provides a more sensitive test of mediation than the Sobel test [13,33,71,73].
+We tested the signiﬁcance of all effects (a, b, and a�b) using a biascorrected, accelerated bootstrap
+We estimated distributions of subject level path coefﬁcients by randomly sampling with replacement 10,000 observations (rows) from the matrix of [a b a�b] path coefﬁcients for each voxel.
+Two-tailed, uncorrected P values were calculated from the bootstrap conﬁdence interval.
+Multi-level mediation analysis incorporates a critical component, not present in single-level mediation, that offers a novel perspective on the relationship between within- and betweensubject effects.
+The mediation effect (the decrease in the behavioral relationship when controlling for a mediator) is driven by a combination of consistent effects (paths a and b) across a group of subjects and by covariance between paths a and b across individuals [39]—that is, the individuals that show strongly positive path a effects also show strongly positive path b effects, and vice versa.
+This implies that a region can mediate the relationship between independent and dependent variables either because it is used in similar ways by all subjects (eg, the region shows increases with temperature [path a] and greater activation predicts higher pain controlling for temperature [path b]) or because individuals vary in consistent ways across paths a and b (eg, for subjects who show increases with temperature, greater activation predicts higher pain, and for subjects who show decreases with temperature, less activation predicts higher pain).
+The notion of mediation driven by covariance is relevant because individuals vary in the magnitude of pain that they report with a given stimulus temperature in meaningful ways [24,56,84].
+These person-level differences are often likely to be psychologically meaningful; for instance, individuals may use different strategies to cope with pain.
+To examine whether mediation was driven by consistent effects across the group or by covariance between temperature effects and pain-related responses, we identiﬁed clusters that showed evidence of mediation, and extracted trialwise data from each subject within each cluster.
+We then tested whether there were signiﬁcant effects across the group in paths a and b (ie, whether there was a consistent group effect, essentially identical to what would be found with a standard 1-sample t test on path a or path b coefﬁcients), or whether there were signiﬁcant correlations between a and b coefﬁcients across individuals.
+The former are reported as mediators that show consistent effects, whereas the latter are reported as driven by covariance and are likely to reﬂect psychologically meaningful individual differences, although identifying the sources and psychological correlates of these individual differences likely requires large-sample studies and is beyond the scope of the present report.
+All results are false discovery rate (FDR) corrected at q < 0. 05, which corresponds to a voxelwise threshold of P < .
+We imposed a cluster extent threshold of 3 voxels at the lowest threshold.
+Network analyses and clusterwise tests were performed on data extracted from these voxels along with any contiguous voxels at uncorrected thresholds of P < .
+We were speciﬁcally interested in characterizing responses within regions classically associated with pain-related processing [5,35,60].
+We used an independent localizer to identify painprocessing brain network (PPBN) regions of interest (ROIs), using methods similar to those previously reported [7].
+In brief, we used a mega-analytic approach to compare high- versus low-intensity thermal stimulation across 4 different studies from our laboratory (n = 114).
+Voxels that showed a signiﬁcant [high – low intensity] effect on the basis of familywise error correction (P < . 05) using Gaussian random ﬁelds as implemented in SPM5 (Fig. 1C) were deﬁned as the PPBN.
+Anatomical localization was determined based on the LONI Probabilistic Brain Atlas
+This revealed the following regions as comprising the PPBN (Fig. 1C): bilateral superior, inferior, and middle frontal gyrus; bilateral precentral gyrus; right middle and bilateral lateral orbitofrontal gyrus; bilateral postcentral gyrus; bilateral supramarginal gyrus; bilateral superior and middle temporal gyrus; right hippocampus; right parahippocampal gyrus; left lingual gyrus; bilateral insular cortex; bilateral cingulate gyrus; bilateral caudate; bilateral putamen; brainstem; cerebellum, bilateral thalamus, and medial thalamus.
+For each path, we report results from ROIs that fell within the PPBN localizer, as well as regions outside the a priori PPBN.
+We tested for selectivity to temperature effects or variations in pain report by identifying voxels that were activated by temperature but unrelated to variations in report (ie, showed path a effects but neither path b effects nor mediation), and voxels that showed the reverse relationship (path b effects but neither path a effects nor mediation).
+To ensure speciﬁcity to one process over the other, we identiﬁed voxels that showed signiﬁcant effects in one path at P < .
+001, and whose P values for the other path effect and the mediation effect exceeded P > .
+05 uncorrected.
+Within path b regions, we also tested for speciﬁcity to pain report and independence from nociceptive responses by testing whether brain regions predicted pain controlling for temperature, as well as brain responses in mediators that fell within the boundaries of the PPBN.
+Trial-by-trial AUC estimates were averaged across PPBN mediator regions and included as covariates in multilevel mediation analyses for each path b region (activation averaged across all voxels).
+This in turn allowed us to test the relationship between brain response and pain report controlling for both temperature and PPBN mediator response.
+Results are reported in Table 2.
+We used dimension reduction with nonmetric multidimensional scaling (NMDS) and clustering to test whether mediator regions grouped into separate networks, using a multisubject extension of methods described in previous work [40,79].
+We extracted the entire series of trial AUC estimates for each subject for each voxel within each mediator region.
+The goal was to provide a reasonable estimate of which voxels were grouped into coherent parcels (contiguous regions) and how these regions grouped into functional networks.
+A detailed explanation of the steps is provided below; in addition, the code for the analysis is available on our Web site (http://wagerlab.
+The function parcel_clusters. m in the CANlab Core Tools package implements the 3 major steps described below and visualized in Fig.
+Clustering of multivariate data is most stable when the data are not sparse, that is, the dimensionality is low relative to the number of observations.
+To limit the dimensionality of the data, a spatio-temporal dimension-reduction step is ﬁrst performed on the [n � v � N] data matrix of AUC data for n trials � v voxels � N participants (here, n = 48 trials [usually], v = 17,112 voxels, and N = 26 participants).
+A temporal data reduction is ﬁrst performed to identify components with correlated AUC trial time series within each participant, followed by a spatial reduction to identify components with correlated spatial patterns across subjects.
+First, the [n � v] matrix of AUC data for each participant was subjected to PCA, using the [v � v] correlation matrices.
+Based on the scree plots across subjects, we saved the ﬁrst 7 eigenvectors (spatial maps).
+These eigenvectors explained 74 ± 2.
+These eigenvectors were scaled by their variances (eigenvalues) and concatenated across subjects to form an [v � N⁄7] matrix of eigenvectors.
+This matrix was subjected to a second (across participant) PCA step to identify components with similar spatial maps across participants.
+We retained 12 eigenvectors (maps) based on the scree plot, which explained 65% of the variance across individuals.
+Component scores in this space were used for clustering.
+This is a data reduction step, and the results are not expected to depend strongly on the number of eigenvectors retained at either step, as long as most of the variance in the data is explained.
+Parcellation: Hierarchical agglomerative clustering with average linkage was used to group voxels into parcels—sets of contiguous voxels with similar proﬁles—in the [v � 12] matrix of component maps.
+The goal of parcellation was to reduce the space from voxels to parcels (regions) for nonmetric multidimensional scaling (NMDS)–based clustering of regions, so that NMDS is computationally tractable.
+Voxels whose trial AUC time series did not correlate with that of other voxels in the same parcel at P < .
+Of 140 parcels total, 127 parcels with more than 3 voxels after pruning were retained for subsequent analysis.
+NMDS and clustering: Parcels were now treated as the unit of analysis, and the AUC trial time series data were extracted from each parcel for each subject.
+Values in the [n trials � parcels � N subjects] data matrix were z scored within participant to remove intersubject differences in scaling, then concatenated into an [n⁄N � parcels] data matrix.
+Correlations among parcels were converted into a [parcels � parcels] matrix of distances using the formula distance =
+The NMDS stress plot (which operates on ranked distances and is therefore more robust to outliers and does not require a strictly Euclidean distance space) was examined, and 7 dimensions (which explained 79% of the variance in distances) were retained for the ﬁnal cluster analysis.
+Hierarchical agglomerative clustering with average linkage was used to cluster the parcels in this space into interconnected networks with correlated AUC trial time series.
+To choose the number of clusters in the ﬁnal solution (k), for every possible choice of clusters between k = 2 and 20, we compared the cluster solution to the average and SD of 1000 clustering iterations with permuted parcel time series.
+This yielded a z score ([actual solution – mean permuted solution]/standard deviation) of permuted solution for each value of k.
+The best solution was k = 13, with a value of Z = 5.
+We report results from the solution that divided parcels into 13 networks.
+Two networks consisted solely of parcels in white matter and were excluded from the results reported below.
+For each network, we averaged over in-network voxels for each subject and used multilevel mediation to test whether average network responses mediated temperature effects on pain.
+Coordinates (mm) No. of voxels Volume (mm) Max z score Mean x y z P < .
+001 Path a coeff (SE) Mean p value path a Temperature-related increases Bilateral cerebellum –14 –66 –34 6081 48,648 15.
+Right insula, contiguous with bilateral thalamus, midbrain, right inferior frontal gyrus, Right lateral PFC, right premotor cortex, right lateral OFC, Right hippocampus Left middle orbital Gyrus –26 38 –20 84 672 11.
+0006 Left rolandic operculum –46 –4 10 3654 29,232 13.
+0037 Left caudal cingulate –18 –28 34 55 440 8.
+0004 Left postcentral gyrus (BA3b) –40 –32 52 3869 30,952 11.
+Coeff, coefﬁcient; Max, maximum; OFC, orbitofrontal cortex; PFC, prefrontal cortex; SE, standard error; VLPFC, This table presents results from path a of the multilevel mediation analysis presented as a path diagram in Fig.
+Mediation effect parametric mapping results are presented in Fig.
+Table 2 Path b: Regions correlated with subjective pain, controlling for temperature.
+Right insula lobe 46 10 2 2042 16,336 11.
+Temporal gyrus left inferior frontal gyrus p. orbitalis –28 32 –12 49 392 8. 4 –. 0068 (0. 00)⁄⁄⁄ –.
+This table presents results from path b of the multilevel mediation analysis presented as a path diagram in Fig.
+Mediation effect parametric mapping results are presented in Fig.
+Recent work demonstrates that noxious stimulus effects on brain responses may be nonlinear with respect to temperature [38] and that some regions show nonlinear relationships with respect to pain [15,19,48].
+Nonlinearities in the relationship between temperature and pain are one of the effects that decouple stimulus intensity from reported pain, along with others (sequence and learning effects, attention, and variance related to decisionmaking processes).
+Our primary analysis controlled for linear effects of stimulus intensity when assessing the brain relationship with pain (path b), which allows nonlinear effects of temperature to drive some path b effects.
+In additional analyses, we ruled out potential nonlinear inﬂuences of temperature: We assessed path b (reported pain) and mediation effects controlling for temperature in a nonparametric fashion by including covariates for all possible differences among the 4 discrete levels of heat.
+To do this, we evaluated a second mediation in which the input variable (‘‘X’’) reﬂected the difference between the top 2 temperatures and the bottom 2 temperatures (eg, [11�1�1] across the vector of [High pain, Medium pain, Low pain, Warmth] conditions), and we also modeled covariates for the difference between High and Medium conditions and Medium and Low conditions.
+This controls for any pairwise differences, because any systematic linear or nonlinear differences among intensity levels can be modeled as a linear combination across these 3 regressors.
+The results of these tests are reported in Tables 2 and 3.
+Path b effects on all regions remained signiﬁcant after controlling for nonlinear effects of stimulus intensity.
+Relationship to masked emotion face cues The primary focus of this report was to introduce a method to isolate the brain regions that link changes in noxious input to changes in pain perception.
+Although our design included masked presentations of face stimuli with happy or fearful expressions, isolating the effects of the faces themselves on brain responses was outside the scope of this article.
+However, mediation analysis takes advantage of the variability in the temperature-to-pain relationship, and, given our experimental design, some proportion of this variance might relate to the emotion face primes.
+To account for this possibility, Masked Emotion and Emotion � Temperature interactions were included as covariates in follow-up analyses for regions that showed signiﬁcant path b and mediation effects in our primary linear mediation model (similar to the nonparametric analysis above).
+Results are reported below and included in Tables 2 and 3.
+Results Pain reports were highly correlated with noxious stimulus intensity.
+The linear mixed model revealed a signiﬁcant effect of temperature on pain (t25 = 14.
+001), such that pain reports increased by 0.
+73 points on the VAS scale for each unit change in temperature.
+The linear effect of temperature on pain is modeled as path c in the multilevel mediation analysis (Fig. 1A).
+93, SD = 0. 75).
+We searched for mediators that explained this variance.
+We also tested nonlinear effects of temperature on pain and found that the relationship was captured by a power law with exponent 2.
+We used a 3-step approach to deﬁne networks of mediators.
+Coordinates (mm) No. of voxels Vol (mm) Max a � b (SE) Cov (a, b) Path a and path b effects, if consistent across individuals Nonpara metric temperature effects model: Mean path ab coeff (SE)
+Negative mediators Left rectal gyrus 65 –2 18 –24 15 –0. 002 (0. 001)⁄⁄⁄ 0.
+Finally, we tested whether the masked emotion faces inﬂuenced pain reports.
+001), such that there was a steeper slope in temperature effects on pain when stimuli were preceded by subliminal fear faces, relative to subliminal happy faces.
+Because this comparison lacks a neutral control condition and requires replication before we interpret it strongly, we cannot make claims about these effects without replication and extension in additional experiments.
+Thus, we do not focus on these effects here, but we evaluate whether results reported below remain signiﬁcant controlling for priming effects due to faces.
+The mediation analysis (Fig. 1b) included 3 tests of the links between the objective stimulus and the pain response: (1) path a, stimulus-related responses; (2) path b, pain-related responses, controlling for temperature; and (3) path a � b, mediators of the relationship between stimulus and response, that is, a formal test of whether the brain region explains a signiﬁcant amount of the covariance between temperature and pain.
+Increasing temperature produced increases in activation throughout the PPBN, including bilateral insula (with contiguous activation covering anterior, middle, and dorsal posterior insula), bilateral secondary somatosensory cortex (SII), right primary somatosensory cortex (SI), bilateral medial thalamus, dorsal anterior cingulate cortex (dACC; with coverage extending to supplementary motor area (SMA) and middle cingulate regions), in the midbrain surrounding the periaqueductal gray (PAG), and bilateral and medial cerebellum (Fig. 4A and Table 1).
+Temperature-related increases were also found in regions outside of the PPBN, including bilateral lateral orbitofrontal cortex (latOFC), right Brain region (Brodmann area)
+Coordinates (mm) No. of voxels Vol (mm) Max a � b (SE) Cov (a, b) Path a and path b effects, if consistent across individuals Nonpara metric temperature effects model: Mean path ab coeff (SE)
+This table presents results from path a⁄b of the multilevel mediation analysis presented as a path diagram in Fig.
+Mediation effect parametric mapping results are presented in Fig.
+The relationship between temperature and pain is reliable.
+Mediators help to explain the within-subject variability.
+Each participant is represented in a different color.
+Temperature was inversely related to blood oxygen level– dependent (BOLD) responses in the right dorsomedial prefrontal cortex (DMPFC; superior frontal gyrus), ventromedial prefrontal cortex (VMPFC), bilateral parahippocampal gyrus, bilateral hippocampus, bilateral primary motor cortex (M1), bilateral fusiform gyrus, precuneus, cuneus, subgenual and posterior cingulate cortex, bilateral middle temporal cortex, and bilateral occipital cortex (Table 1).
+As we describe below, some of these regions were also related to pain report, and others were not.
+Path a effects on all regions remained signiﬁcant when Masked Emotion type and the Emotion � Temperature interaction were included as covariates.
+Path b, pain-related responses fMRI activity in a number of regions in the a priori PPBN mask predicted pain reports, controlling for temperature (
+Other regions outside of the PPBN also positively predicted pain, including bilateral DLPFC (middle frontal gyrus), bilateral latOFC (middle orbital gyrus), and bilateral superior parietal lobule (SPL).
+BOLD responses were inversely related to pain reports in another set of other areas, including bilateral parahippocampal cortex, right hippocampus, left VMPFC, MPFC, left/lateral OFC (inferior frontal gyrus pars orbitalis), rostral anterior cingulate cortex (rACC), pons, cuneus, bilateral temporal pole, right middle and inferior temporal gyrus, posterior cingulate, and bilateral occipital cortex (Table 2).
+Every region that showed signiﬁcant path b effects remained signiﬁcant when we used a nonparametric model of temperature, suggesting that these effects were not driven by nonlinearities with respect to temperature (Table 2).
+We also evaluated effects controlling for the face primes by modeling Masked Emotion and the Emotion � Temperature interaction as covariates (Table 2).
+All positive path b effects remained signiﬁcant when we controlled for the effects of face primes.
+Although most negative path b regions remained signiﬁcant, path b effects on bilateral temporal pole, rACC, and 1 cluster in left VLPFC were no longer signiﬁcant (Table 2).
+Thus, trial-by-trial variations in activity in these regions predicted trial-by-trial variations in report, even when temperature was held constant.
+As we describe below, some of these regions covaried with stimulus temperature and others did not; in addition, some predicted pain report even when controlling for activity in PPBN mediators.
+Path a � b, mediation effect A number of regions positively mediated the within-subject relationship between stimulus intensity and reported pain (
+Mediation effects in some regions were driven by consistent effects—that is, signiﬁcant stimulus-related (path a) and pain-related effects (path b) across all participants—whereas others were driven by covariance in paths (ie, correlated individual differences in path a and path b effects).
+In either case, positive mediation implies that activity in this region explains some of the effects of noxious heat on reported pain.
+Mediator regions that showed consistent effects are illustrated in Fig.
+In most mediators that fell within the a priori PPBN mask, activation both increased with temperature and predicted pain (ie, positive path a and b; red in Fig.
+We observed this pattern of effects in bilateral anterior/mid-insula, bilateral SII, dACC, left cerebellum, right lateral PFC, right SMA (BA6), right superior parietal lobule (SPL), and right premotor cortex.
+5B, Table 3), temperature increases produced deactivation, and greater deactivation predicted greater pain.
+Because both path a and path b are negative, the overall mediation effect is positive.
+Such effects were found in included bilateral hippocampus and parahippocampus, bilateral inferior temporal gyrus, left medial prefrontal cortex (MPFC), bilateral occipital cortex, right posterior cingulate cortex, left SPL, and precuneus.
+Interestingly, most mediators were driven by covariance between paths (Fig. 5A and Table 3), including the right parahippocampus, left latOFC, bilateral latPFC, left caudate, left temporal pole, right fusiform, left VLPFC (inferior frontal gyrus), right middle temporal gyrus, bilateral retrosplenial cortex, posterior cingulate, cuneus, left premotor/lateral PFC, left DLPFC, right DMPFC, right SPL, and precuneus.
+Signiﬁcant covariance implies systematic heterogeneity across individuals; that is, some participants show Fig.
+Mediation analysis results.
+(A) Path a identiﬁes brain regions that show linear effects of temperature.
+(B) Path b identiﬁes brain regions that correlate with pain reports, controlling for temperature.
+All identiﬁed regions were signiﬁcantly related to trial-by-trial variations in pain using both linear and nonlinear models of temperature-related changes.
+strong path a and path b responses, whereas others are weak on both.
+Alternatively, there could be interindividual differences in the qualitative nature of the relationship between fMRI activity and pain: Some subjects show positive relationships with both temperature and pain, whereas others show negative relationships with both, in the same region.
+This is possible if, for example, brain activity represents appraisal or attention processes that serve to increase pain in some individuals and mitigate it in others.
+Thus, these results raise the possibility that different brain models may be appropriate for different groups of individuals.
+Finally, we observed negative mediation effects (blue in Fig.
+These ﬁndings suggest that some regions contribute to the stimulus–response relationship but show responses that go against the overall behavioral effect.
+These patterns have been described as suppressive effects in the mediation literature [51], and the interpretation is that the temperature–pain relationship would be stronger if activity in these regions were held constant.
+Regions in which activation is triggered by increases in temperature, but that serve an endogenous regulatory function, would ﬁt this pattern; however, we do not interpret these results strongly here, as they were not predicted a priori.
+Finally, mediation effects in all regions remained signiﬁcant when we controlled for cue effects by including Masked Emotion and Emotion � Temperature as covariates in the mediation analysis (Table 3).
+Among the regions with signiﬁcant temperature-related effects, some did not show any substantial evidence for correlations with pain report (‘‘a not b regions’’).
+Regions positively and uniquely related to temperature (yellow in Fig. 6) included the right dorsal posterior insula, bilateral thalamus, midbrain surrounding the PAG, right lateral prefrontal cortex, rostral ACC, bilateral lateral OFC, bilateral inferior frontal gyrus, caudal anterior cingulate cortex, and bilateral cerebellum.
+Regions negatively and uniquely related to temperature (green in Fig.
+6) included bilateral medial prefrontal cortex, right dorsomedial prefrontal cortex (DMPFC), bilateral primary motor cortex, left S1, precuneus, left hippocampus, bilateral posterior hippocampus/fusiform gyrus, and bilateral occipital lobe.
+Activity in these regions is likely to reﬂect early processing of the noxious input.
+Regions that predict variations in report but are not affected by changes in noxious input (‘‘b not a regions’’, red/purple in Fig. 6) included the right mOFC, bilateral DLPFC (BA46), right DMPFC (superior frontal sulcus), bilateral SMA, right pre-SMA, left posterior insula, left posterior parahippocampus, bilateral superior parietal lobule, and bilateral cerebellum.
+To ensure speciﬁcity to pain reports, we also tested whether these ‘‘b not a’’ regions predicted pain report controlling for evoked responses within PPBN mediator regions.
+All regions remained signiﬁcant controlling for PPBN mediator activation (Table 2), and remained signiﬁcant controlling for nonlinear effects of temperature.
+These regions are likely to represent magnitude estimation, attention, decision making, and other endogenous processes that relate to variation in report but are unaffected by changes in temperature.
+Interestingly, we observed qualitative evidence for anteriorto-posterior gradients in several regions, pictured in Fig.
+In the left insula and ACC, anterior portions were temperaturerelated, middle regions showed both temperature and pain effects, and posterior regions were pain-related.
+We found the opposite Fig.
+Brain regions whose responses to noxious stimulation formally mediate the relationship between temperature and pain include those that were activated consistently across the group, as well as those that show covariance between paths.
+(B) Consistent mediators (signiﬁcant path a and path b effects across subjects).
+Regions that were activated consistently across the group include both regions that showed temperature- and pain-related increases (red), as well as those that showed temperature- and pain-related decreases (blue).
+gradient in left parahippocampus: more posterior portions were temperature-related, whereas anterior parahippocampus was pain-related.
+Such gradients should be subjected to quantative spatial tests in future studies.
+Finally, we used nonmetric multidimensional scaling (NMDS) to identify networks of mediators expressed similarly across trials and across individuals.
+We averaged across clusters within each network and tested for mediation to understand the network’s functional signiﬁcance.
+Three networks showed consistent mediation effects with positive paths a and b (Fig. 7, top panel).
+The ﬁrst network included bilateral SII; the second network was made up of bilateral anterior and middle insula, dorsal anterior cingulate, right latPFC, right premotor cortex, and right VLPFC; and the third network included bilateral thalamus, left ventral striatum, midbrain/ PAG, and bilateral cerebellum.
+Two other networks showed positive mediation effects with negative paths a and b. One network included bilateral parahippocampal cortex, right hippocampus, bilateral middle temporal gyrus/temporoparietal junction (TPJ), bilateral temporal pole, and right posterior hippocampus (Fig. 7, bottom), and the other network included bilateral retrosplenial cortex/posterior cingulate and inferior parietal lobule (IPL).
+Networks illustrated in Fig.
+7 showed evidence of mediation even controlling for all other mediators, suggesting that they are the most proximal predictors of temperature effects on pain.
+Finally, seven more networks were identiﬁed with inconsistent positive mediation effects (signiﬁcant a⁄b, but nonsigniﬁcant path a and/ or path b effects), likely driven by covariance (individual differences) and/or heterogeneity of the behavior of the constituent regions.
+All effects are reported in Table 4.
+The present study identiﬁed brain networks that contribute to the generation of pain in response to noxious stimulation.
+This provides the ﬁrst direct evidence that regions within an a priori ‘‘pain Fig.
+Regions illustrated in yellow and green were affected by temperature (P < .
+Red and purple regions were associated with trial-by-trial pain reports, controlling for temperature (P < .
+001), but showed neither temperature-related changes nor mediation (P > . 05), and each was signiﬁcantly related to variations in pain controlling for nonlinear effects of temperature and for activation in the pain-processing brain network (PPBN) mediators.
+Mediators that showed consistent effects within subjects, with signiﬁcant temperature- and pain-related effects, are depicted in orange (all paths:
+(A) We observed anterior-to-posterior gradients in several regions.
+In the anterior cingulate cortex (ACC; left inset) and left insula (right inset), anterior portions were stimulus related; middle regions showed activation that was correlated with both increases in stimulus intensity and increases in pain; and posterior regions were related to pain reports.
+The opposite pattern was observed in the left parahippocampus (middle inset): More posterior portions were related to the stimulus, whereas anterior portions were related to pain reports.
+(B) Regions related to temperature but not pain included bilateral medial prefrontal cortex, right dorsomedial prefrontal cortex (DMPFC), bilateral primary motor cortex, left S1, precuneus, left hippocampus, bilateral posterior hippocampus/fusiform gyrus, bilateral occipital lobe, right ventromedial prefrontal cortex (VMPFC), bilateral dorsolateral prefrontal cortex (DLPFC; BA46), right supplementary motor area (SMA), right pre-SMA, left posterior insula, left posterior parahippocampus, and bilateral cerebellum.
+(C) Regions related to pain but not temperature included right medial orbitofrontal cortex (mOFC), bilateral DLPFC (BA46), right DMPFC, right SMA, right pre-SMA, left posterior insula, left posterior parahippocampus, and bilateral cerebellum.
+(D) We extracted responses from the regions that showed unique relationships to temperature or pain and averaged across regions and subjects.
+Loess curves depict responses as a function of applied temperature (top row), and pain as a function of brain response to heat (area-under-the-curve [AUC] estimate), controlling for temperature (bottom row).
+Shaded regions reﬂect standard error across subjects and therefore should not be used to make inferences on random effects.
+processing’’ brain network (PPBN) formally mediate stimulus intensity effects on pain.
+Our results also reveal complexity that goes beyond a unitary pain-processing system.
+First, regions outside the PPBN also mediate temperature effects on pain.
+Second, mediators were grouped into several networks that make separable contributions to pain.
+Finally, some regions responded selectively to changes in temperature, whereas others predicted pain without responding to changes in heat.
+Most mediators that showed consistent proﬁles across individuals fell within a priori ROIs, including bilateral SII, aIns, dACC, left cerebellum, IPL, and SPL.
+These regions showed temperaturerelated increases and predicted subtle variations in pain, controlling for temperature.
+Previous work has linked activation in some of these regions to variations in reports without changes in stimulus intensity [7,14,62,82].
+Our ﬁndings reveal that these regions drive ﬂuctuations in pain even when stimulus intensity varies.
+These trial-by-trial ﬂuctuations are not reducible to nonlinearities in temperature effects on pain [33], but they could reﬂect sensory variations due to contact with the thermode (which we attempted to minimize), stimulus history [12,37,64], or non-nociceptive processes that modify pain, such as ﬂuctuations in attention [14,46,62] and regulatory or preparatory mechanisms that reduce pain
+Future studies should distinguish among these possibilities and perhaps quantify how much variance in the brain activity–pain relationship is due to each factor.
+Network analyses suggest that PPBN mediators comprise distinct somatosensory, paralimbic cortical (anterior cingulate/ insula/lateral sensorimotor/frontal), and subcortical (striatal/ brainstem/cerebellar) groups.
+These ﬁndings are broadly consistent with separation of lateral sensory/discriminative versus medial affective/motivational systems [17], but provide an elaborated view.
+The cortical network that we identiﬁed includes lateral and medial areas, and the subcortical regions often included in the ‘‘medial pain system’’ form a separate, coherent network.
+Thus, the results extend the concept of the unitary ‘‘pain processing’’ system, and lay a foundation for (1) understanding how networks interact during pain genesis, and (2) examining how different factors (stimulus types, psychological contexts, or treatments) affect each network.
+Mediators not targeted by ascending nociceptive pathways Regions outside the a priori PPBN also mediated pain.
+We observed temperature- and pain-related increases as well as mediation in the right latPFC, right SMA, right SPL, and right premotor Fig.
+We performed nonmetric multi-dimensional scaling to identify networks of mediators, based on functional coactivation within-subjects across trials.
+Eleven functional networks were identiﬁed (Table 4).
+(Top) Three networks consistently showed temperature- and pain-related increases, including a network in bilateral secondary somatosensory cortex (orange), a second network that consisted of bilateral anterior and middle insula, dorsal anterior cingulate, right lateral prefrontal cortex (latPFC), right premotor cortex, and right ventrolateral prefrontal cortex (red), and a third network that included bilateral thalamus, left ventral striatum, midbrain/ periaqueductal gray (PAG), and bilateral cerebellum (yellow).
+Plots of average activation reveal that networks 2 and 3 were largely linear in relationship to noxious input, whereas network 1 showed nonlinearities that mirror the behavioral effects of temperature on pain.
+(Bottom) Two networks were inversely related to both noxious stimulus and pain reports: The ﬁrst included bilateral retrosplenial cortex/posterior cingulate and inferior parietal lobule (green), and the second included bilateral parahippocampal cortex, right hippocampus, bilateral middle temporal gyrus/temporoparietal junction (TPJ), bilateral temporal pole, and right posterior hippocampus (cyan).
+Although it is not a direct target of the spino-thalamo-cortical pathway, right latPFC (near Brodmann Area 10) has been implicated in previous pain studies [10,49,86].
+SMA and premotor activation is also commonly observed in imaging studies of neuropathic pain and acute pain in healthy individuals and might be involved in pain-related motor planning [5,57,59].
+Two core networks, including the hippocampal and parahippocampal cortex, anterior pole, TPJ, and the precuneus, mediated stimulus effects on pain by virtue of deactivation with increasing heat, the magnitude of which predicted increased pain.
+These regions are all associated with the ‘‘default mode network’’ (DMN).
+They are active at rest and may represent stimulusindependent thought and internally focused mnemonic, visceromotor, and valuation processes [4,21].
+Previous studies have also shown intensity- and pain-related DMN deactivation [48,69], linking pain with other processes that capture attention and limit internal thought.
+Although these temperature- and pain-related decreases may reﬂect pain-related attention capture, some of these regions might play a more active role in pain inhibition and generation.
+Existing evidence suggests that the hippocampus and parahippocampal cortices can both enhance or decrease pain.
+Both receive input from SII via the insula [36].
+Noxious stimuli reduce activation in the hippocampus [43,59] and the parahippocampal gyrus [30,43].
+Hippocampal stimulation in animals produces antinociception [50,53], and placebo analgesia has been associated with parahippocampal increases [26,42].
+However, noxious stimuli can sometimes increase hippocampal activation [11,30], and hippocampal activity has been associated with anxiety-induced hyperalgesia [61] and nocebo-related increases in pain [41].
+Disentangling the factors that lead to anti-nociceptive or pro-nociceptive responses is an important direction for future research.
+Regions preferential to stimulus versus pain report Tests of mediation in single voxels provide an important, but partial, view of systems encoding pain.
+Areas that represent distinct aspects of the experience—that is, selective relationships with temperature or pain—can provide clues about the dissociability of nociceptive and decision-making processes and potential neurophysiological targets for the modulation of each.
+For example, placebo analgesia is associated with widespread changes in responses to noxious stimuli [78].
+It is unclear whether any brain circuits reliably encode thermosensory nociceptive responses without being affected by the treatment context.
+These could be related to early nociception, attentional orienting, nocifensive responses, or other processes; whatever the case, they are more strongly related to stimulus intensity than to pain report.
+Conversely, several regions were related to pain but showed no relationship with stimulus intensity.
+These regions may support the cognitive and affective processes that contribute to pain evaluation, such as magnitude estimation, conceptual representation, and ﬂuctuations in arousal and attention.
+The medial and lateral OFC have been associated with expected value and outcome expectancy [45,68].
+The DLPFC is broadly associated with decision making and executive function [54,55], and the right DMPFC has been associated with prospection and mental simulation
+These systems may be responsible when contextual factors inﬂuence pain without affecting nociception (ie, as a function of decisionmaking processes).
+Previous studies isolated brain regions whose activation during rating predicts variation in pain [9,44].
+An extension of the present work might use mediation to separate regions whose activation during the report period is related to heat, and those whose painrelated responses are related to endogenous variations in reporting-related activity alone.
+These would be informative probes of activity related to decision-making biases or memory-related processes.
+Our study was not designed to address reporting-period activity, as motor-related processes would correlate with heatrelated processes due to the consistent mapping of increased pain to rightward movement on our scale.
+The pattern of temperature-related versus pain-related regions provides new evidence on the question of whether these processes are encoded in different circuits.
+One pioneering fMRI study associated thermosensation with dpIns and pain perception with aINS [29].
+We also found that contralateral dpIns showed linear increases with temperature but did not predict pain; however, the picture is likely to be more complex, as other portions of dpINS Network components Path a Path b Path c Path c’ Mediation (c – c’)
+Network 3: Right thalamus, PAG, midbrain, medial cerebellum, left ventral striatum, ventral striatum, right globus pallidus 3.
+Results of mediation analysis testing whether average network activation mediates temperature effects on pain reports.
+Values reﬂect z scores for each effect.
+but did not respond to temperature, replicating recent results [9], and anterior portions of aINS/operculum tracked temperature without predicting pain.
+In addition, our data appeared to show posterior–anterior gradients in the insula and dACC from pain report to stimulus encoding.
+Previous studies have found similar gradients in the parietal cortex [6].
+These should be replicated and explicitly tested with spatial statistics in future studies.
+Although assessment of these questions is beyond the scope of the current study, the speciﬁcity issue deserves discussion.
+We observed heterogeneity in PPBN responses, suggesting that this network contains both thermosensory regions and regions involved in both thermosensation and magnitude estimation.
+However, we examined only one modality in this study, and cannot determine whether stimulus intensity effects and relationships with subjective reports would be similar in other modalities, or whether the relationships that we observed are unique to nociception and pain.
+AIns and dACC are activated by a range of tasks [9,31,85].
+One view is that aIns mediates general interoception [27,28], and dACC and aIns integrate salient external stimuli of all types with internal states [23].
+A similar argument has been made for somatosensory regions [58].
+Another view is that these regions contain many types of neurons that encode diverse, but speciﬁc, processes, including nociception and pain, and indeed, responses within these regions predict pain across individuals with high accuracy [78].
+Future research should use mediation to link stimulus intensity with perception across domains and to determine the speciﬁcity of pathways identiﬁed here.
+Pain is generated by a combination of independent networks.
+Some are involved in nociception and pain in a classic sense: They show graded responses to noxious input, and responses predict the magnitude of pain.
+Others show decreases with temperature that predict pain increases and may be related to mental processes that antagonize (or sometimes promote) pain.
+Finally, some regions predict pain without responding to noxious input per se, and may encode decision-making processes that shape pain evaluation.
+The networks identiﬁed here provide a rich neurophysiological basis for understanding diverse pain-generation processes, and this approach can be extended to stimulus effects on conscious perception in other domains.
+The authors declare no conﬂicts of interest.
+The authors acknowledge Katherine Dahl and Natalie Johnston for assistance with data collection.
+Funding was provided by

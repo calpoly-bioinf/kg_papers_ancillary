@@ -1,0 +1,158 @@
+Abstract Fibromyalgia syndrome (FMS), usually observed commonly in females over age 30, is a rheumatic disease accompanied by extensive chronic pain.
+In the diagnosis of the disease non-objective psychological tests and physiological tests and laboratory test results are evaluated and clinical experiences stand out.
+However, these tests are insufficient in differentiating FMS with similar diseases that demonstrate symptoms of extensive pain.
+Thus, objective tests that would help the diagnosis are needed.
+This study analyzes the effect of sympathetic skin response (SSR) parameters on the auxiliary tests used in FMS diagnosis, the laboratory tests and physiological tests.
+The study was conducted in Suleyman Demirel University, Faculty of Medicine, Physical Medicine and Rehabilitation Clinic in Turkey with 60 patients diagnosed with FMS for the first time and a control group of 30 healthy individuals.
+In the study all participants underwent laboratory tests (blood tests), certain physiological tests (pulsation, skin temperature, respiration) and SSR measurements.
+The test data and SSR parameters obtained were classified using artificial neural network (ANN).
+Finally, in the ANN framework, where only laboratory and physiological test results were used as input, a simulation result of 96.
+51 % was obtained, which demonstrated diagnostic accuracy.
+This data, with the addition of SSR parameter values obtained increased to 97.
+This result including SSR parameters – meaning a higher diagnostic accuracy – demonstrated that SSR could be a new auxillary diagnostic method that could be used in the diagnosis of FMS.
+Artificial neural networks (ANN) Fibromyalgia syndrome (FMS) is a common rheumatologic syndrome which is manifested as chronic and diffuse musculoskeletal pain.
+When examined closely, an early diagnosis is possible between the ages of 29–37, however due to the difficulties in diagnosis and the neglect of the disease by the patients the age of diagnosis rises to the range of 34–53 [1].
+70–90 % of all FMS patients are women [1].
+Thus, it could be stated that FMS is prevalent in women over the age of 30.
+As a result of studies conducted by the American College of Rheumatology (ACR) in 1990’s, it was observed that in FMS patients there was a history of extensive pain for more than three months in at least 11 of the 18 sore points selected based on the condition of pain in muscular tissues.
+Thus, the This article is part of the Topical Collection on Systems-Level Quality Improvement.
+1 Department of Electrical and Electronics Engineering, Faculty of Engineering, Sakarya University, 54187 Sakarya, Turkey 3 Department of Electrical and Electronics Engineering, Faculty of Engineering, Akdeniz University, Antalya, Turkey 4 Department of Physical Medicine and Rehabilitation, Faculty of Medicine, Yildirim Beyazit University, Ankara, Turkey 6 Department of Electrical and Electronics Engineering, Faculty of Engineering, Gazi University, Ankara, Turkey most important issue to be considered in FMS diagnosis is the existence of extensive pain in at least 11 of these 18 points for more than three months [2].
+Consequently, if the pain spots of the patients are the same as the points determined by ACR, further evaluations including psychological tests are conducted by the specialist physicians on the patient.
+On psychological tests, the severity equivalents of the pain spots were determined and if these are at an acceptable level, the diagnostic process is taken further using laboratory tests and physiological tests (auxiliary tests).
+Auxiliary tests are the final tests in evaluation of FMS diagnosis.
+Although these exhaustive tests are sufficient in the diagnosis of FMS, they are far from being sufficient in differentiation of FMS from similar diseases with extensive pain.
+Thus, it is necessary to investigate additional diagnostic methods in FMS diagnosis and exclusion of similar diseases.
+In 2010, a new approach was developed by ACR to measure pre-diagnostic criteria and severity of symptoms, which considered widespread pain index and categorical scales for cognitive symptoms, unrefreshed sleep, fatigue, and a number of somatic symptoms.
+The new approach ignored the tender point examination, which was among the 1990 ACR criteria [2].
+Sympathetic skin response (SSR), on the other hand, is an electrical potential recorded by a measurement device after an unexpected audible or an external electrical stimulus was applied on the electrical charge of an area of skin and reflects sudomotor neural activity stimulating sweat glands.
+Previous studies were not able to determine whether SSR data could be among the methods, which could be used, in direct diagnosis of FMS, however it was considered that it could be related to FMS since it responds to the dysfunctions in the autonomic nervous system (ANS)
+A study that scrutinized the effects of SSR on FMS, the support of SSR parameters on the psychological tests, which are the major tests used for the diagnosis of the disease, was investigated.
+It was observed that the accuracy of the diagnosis as a result of ANN analysis, where the psychological test results were evaluated together with the SSR parameters, was higher than the case where only the psychological test results were considered for the diagnosis [5].
+In a study by Ulas et al. conducted to investigate SSR changes in FMS, it was determined that the response latency parameter on SSR signal recorded on the palm and soles of the patients was longer than healthy individuals.
+The results of that study demonstrated that the changes in the autonomic nervous system due to the disease could be graded by SSR measurements and by using soft computing methods at the end of the research, more significant information could be obtained from the signals [4].
+Ozgocmen et al. studied the relationship between SSR response latency parameter and the Hamilton Anxiety Test (HAM-A) that is one of the psychological test utilized for FMS diagnosis, and stated that these two parameters could be correlated at the end of the study [6].
+In another study, based on the information that FMS causes dysfunctions in the autonomic nervous system, Tervainen et al. investigated the relationship between certain parameters of SSR and autonomic nervous system [7, 8].
+Everhart and Harrison scrutinized the relationship between SSR measurements and their functions in the autonomic nervous system and their findings demonstrated that autonomic nervous system could be graded by SSR measurements [9].
+A study by Ahuja et al. considered that SSR signal analysis could become more analytical with soft computing methods and they determined that a new test method could be proposed to help with the diagnosis and treatment of psychological and psychiatric diseases that affect the autonomic nervous system [10].
+In another study that examined the effects of SSR on FMS, laboratory tests, one of the auxiliary methods used in the diagnosis of the disease, were administered to the patients and with the aid of a measurement system placed in a special test environment, SSR parameter values were obtained.
+It was observed by considering the simulation results obtained as a result of ANN analysis of these data that laboratory tests were supported by SSR and increased simulation accuracy [11].
+Berger et al. investigated the relations between the SSR and autonomic dysfunction in spinal cord injury (SCI) and they concluded that the SSR can be used together with the other validated autonomic tests in the evaluation of SCI
+In another study, Saba and Sultan examined the changes in the autonomic nervous system for the rheumatoid arthritis (RA) disease.
+SSR values of the patients and the controls were measured to evaluate the changes in ANS for RA.
+They inferentially presented that the statically significant relation between the autonomic nervous system and the SSR [13].
+They concluded that the polycystic ovary syndrome caused dysfunctions in the autonomic nervous system and this effect was showed easily by SSR and R-R interval tests [14].
+In this study, based on the assumption that FMS affects autonomic nervous system and SSR in turn is affected by the dysfunctions in the autonomic nervous system, the effects of SSR on the auxiliary tests applied in FMS diagnosis were examined in detail.
+In this context, physiological tests and laboratory tests were conducted on patients diagnosed with FSM and healthy individuals (control group) selected by specialist physicians in Suleyman Demirel University, Faculty of Medicine, Physical Medicine and Rehabilitation Clinic, and SSR measurements were obtained from all participants.
+For the analyses, a multilayer feed forward neural network (MLFFNN) was created and used to scrutinize the effects of the SSR parameters calculated based on SSR measurements on the diagnosis of the disease.
+The patients, included in the study after the ethical committee approval, were selected from the patients that were diagnosed with FMS for the first time and applied to Suleyman Demirel University, Faculty of Medicine, Physical Medicine and Rehabilitation Clinic.
+The diagnoses were based on the criteria stipulated by ACR in 1990.
+The control group of the study was formed by healthy and volunteer individuals who have applied to the outpatient clinics of the same hospital for routine checkups or were hospital employees, paired with the patient groups with respect to age and gender.
+Those undergoing a treatment that would affect SSR values, with FMS coexisting diseases, taken alcohol, tobacco, tea or coffee during the last twenty-four hours before the measurement, consumed a meal with high calories during the last six hours before the measurement, not willing to obey measurement protocols were excluded from the study.
+The patients and healthy individuals were examined by specialist physicians for conformity to the established criteria.
+The participants were informed about the measurement process and they have signed written assent forms.
+Then, laboratory tests were performed and after 15 min of rest, heart and respiration rates per minute were taken.
+Before this process, the skin temperatures of the area that SSR measurements will be taken from were determined and average skin temperatures were calculated.
+SSR records were taken in a silent and illuminated room with a suitable temperature (22 °C – 24 °C), while the patient was in a sitting position using a system set up at Physical Medicine and Rehabilitation Clinic (PowerLab 8/30 with LabChart Pro, Data Acquisition Systems, AD Instruments, Inc. Colorado Springs, CO, USA).
+Ring electrodes placed at the middle bone level on the left hand second and third fingers were used as recording electrodes.
+Stimulations were given using a stimulator placed at the median nerve block in the right forearm area.
+The stimulation current strength applied was 0.
+To prevent the decrease in the reaction of the skin against the stimulation due to the repetition of the stimulation, the lag between two stimulations were adjusted to be more than 30 s and 5 stimulations were applied in random intervals.
+When the measurement quality was determined to be low, the number of stimulations was increased and when no response to at least 5 stimulations was observed the measurement was classified as Bno response^ and excluded from the study.
+The parameters used in the study were SSR response latency time (SSRLT), SSR maximum amplitude (SSRMAX-A), the time interval between the stimuli applied (SSRTT), laboratory test results (blood tests) and physiological test (heart rate, skin temperature, respiration measurements) results.
+SSR response latency time is the time that passes between the initiation of the stimulus artifact and the beginning point of the change in sympathetic skin response [15].
+Maximum amplitude value is the Table 2 Minimum, maximum, mean and standard deviation values of CRP, RF, Sedim. , WBC, HB, PLT values for all participants (a), patients (b) and controls (c) respectively) HB 11,100 16,700 13,557 1,173 CRP 2,660 20 4,175 2,982 RF 8,060 29 10,109 3,156 HB 11,100 16,700 13,586 1,210 a. All Ss.
+(86) LT (sn) 0,365 17,246 2,478 3,148 TT (sn) 28,250 70,610 46,888 9,259 Max-A (μV) 0,005 9,140 2,760 2,282 b. Patients (57) LT (sn) 0,417 17,246 2,902 3,547 TT (sn) 28,250 67,644 47,036 8,562 Max-A (μV) 0,005 9,140 2,680 2,267 c.
+Controls (29) LT (sn) 0,365 3,942 1,328 0,926 TT (sn) 28,288 70,610 46,488 10,918 Max-A (μV) 0,258 8,810 2,950 2,312 largest potential change obtained between two stimuli [16]; and the time between the stimuli is the time that passes between a stimulus applied to measure the SSR and the successive stimulus that follows.
+The numerical values of these parameters are obtained using calculations on Matlab (http://www.
+Minimum, maximum, mean and standard deviation values for the SSR parameter values obtained from the patient and control groups are displayed in Table 1.
+One of the auxiliary tests conducted in laboratory environment, blood tests are rheumatoid factor (RF), c-reactive protein (CRP), white blood cell count (WBC), hemoglobin count (HB), platelet count (PLT) and sedimentation (sedim) measurements conducted to differentiate the disease with other diseases with similar symptoms [17].
+These tests were implemented by specialist physicians and recorded.
+Other auxiliary tests are the physiological tests; namely the skin temperature, heart rate and respiratory rate.
+Skin temperature of the participants were taken by specialist physicians at Suleyman Demirel University, Faculty of Medicine, Physical Medicine and Rehabilitation Clinic, using the skin temperature probe of the Cadwell Sierra Wedge EMG/NCV brand, 2 channel EMG device.
+Per minute hear rates of the participants were determined by the examination and SSR records of the participants.
+Minimum, maximum, mean and standard deviation values of blood tests obtained from the patient and control groups are displayed in Table 2.
+Figure 1 and Fig. 2 demonstrates the graphs on these physiological test results obtained from the patients with FMS and the control group, Table 3 displays the minimum, maximum, men and standard deviation valued for these.
+These two figures display the number of participants for control group and patient group as 30 and 60 respectively; however the number of participants that measurements could be taken was 29 for the control group and 57 for the patient group.
+No responses were obtained from 3 patients and 1 healthy individual for at least 5 stimuli and hence they were excluded from the system.
+Thus, the total number of participants who were excluded from the study was 86.
+In the study, where the classifications were conducted using the MLFFNN method, detailed in the next section, 7 different input layers that use different combinations of physiological tests, which were heart rate, skin temperature and respiratory rate, laboratory tests (blood tests), and SSR parameters, which were response latency time, total time and maximum amplitude values, were designed.
+These input layers were the following: 1.
+Laboratory test results and SSR parameters The last four cases, where only physiological test results, only laboratory test results, only SSR parameters and SSR parameters and laboratory test results together were used, were scrutinized in a previous study [11].
+But we performed again the all cases with k-fold cross validation (CV) method for an accurate comparison.
+So this study evaluates these four cases and the three newly examined three cases together.
+Classification results are detailed in the next section.
+ANN are information processing systems developed based on biological neural networks and the main objective in an ANN approach is to learn about an event based on the way human brain functions [18].
+One of these frameworks is the multilayer feedforward neural network.
+In this network, information only moves forward secretly and towards the output layer.
+Signals are always transported forward and connection weights could be changed during training [19].
+Generally, feedforward neural networks are divided into two types; single-layer and multilayer neural networks.
+If the network structure designed to analyze a specific problem consists of only input and output layers, this structure is a single-layer feedforward network framework.
+In addition to the input and output layers in a single-layer networks, if a network contains one or more hidden layers, it is called a multilayer feedforward network.
+A sample feedforward network structure is displayed in Fig.
+The layers in the network are expressed as the input, hidden, and output layers respectively.
+In transmission of the data in the input layer to the neurons in the hidden layer, the neurons in the input layer are utilized.
+The neurons in the hidden layer utilize the output of the preceding layer as input [20].
+In the figure, the weights between the input layer and the hidden layer are indicated as W1,ji, the weights between the hidden layer and the output layer are indicated as W2,yj.
+i = 1,2,. . .
+n are input neurons, j = 1,2,. .
+,m are hidden layer neurons and y = 1,2,. . .
+,k are output layer neurons [21, 22].
+Since MLFNN is commonly used in similar studies in literature, this network structure was preferred in this study; the network was designed as multilayered since more reliable test results are observed when more than one hidden layers are utilized.
+4 ANN model, laboratory and physiological test scores are inputs.
+3 Multilayer feedforward neural network model.
+CRP: C-reactive protein, RF: Rheumatoid factor, HB: Hemoglobin count, Sedim: Sedimentation, WBC: White blood cell count, PLT: Platelet count, Temp: Temperature In this study, classifications were conducted using multilayer feedforward network models, which were mentioned briefly in the previous section and of which input and output are displayed in Figs. 4, 5 and 6.
+All analyses are performed in MATLAB (http://www.
+In the study, initially physiological and laboratory test results were analyzed with ANN.
+For this purpose a multilayer feedforward ANN structure with an input layer composed of 9 neurons, a hidden layer of 5 neurons and an output layer of 1 neuron was designed (Fig. 4).
+Secondly, the effects of SSR data on physiological tests were examined.
+For this purpose a multilayer feedforward ANN structure with an input layer composed of 6 neurons, a hidden layer of 8 neurons and an output layer of 1 neuron was used (Fig. 5).
+Finally, the analyses were completed by adding laboratory test results to the physiological test results and SSR parameters.
+The multilayer feedforward artificial neural network structure designed in this step had an input layer with 12 neurons, a hidden level with 9 neurons and an output layer with 1 neuron (Fig. 6).
+In the output level, individuals with disease were identified with a B0^ and healthy individuals were identified with a B1^.
+In the hidden layer of the network designed, 30*48 neurons were utilized.
+In the analysis of the test findings, the number of neurons that yielded 100 % accurate training during the training process and with the highest simulation accuracy was used.
+We used k-fold CV to reduce the bias related with random sampling of dataset.
+K-fold CV divvies dataset up among k different subsets that have almost the same size.
+We examined different k values and chose four for our dataset.
+The training and test set of ANN were formed by the data collected from 86 participants (57 FMS, 29 healthy controls).
+During the evaluation of physiological test results with the laboratory test results, the ANN trained with a 100 % accuracy.
+ANN classified the patients and healthy individuals and recorded them as patients by assigning a B0^ and as healthy by assigning a B1^ in the output level.
+51 % was observed.
+When the physiological tests were supported with the data from SSR parameters, simulation accuracy was calculated as 95.
+In the final stage of the study, the physiological test results and the laboratory test results were evaluated with the inclusion of SSR parameter findings and accuracy rates (sensitivity) of 100 % for the patient group, (specificity) 93.
+6 ANN model, SSR parameters, laboratory test scores, and physiological test scores are all inputs Fig.
+5 ANN model, SSR parameters and physiological test scores are inputs.
+The simulation accuracy rates for these studies are displayed in Tables 4.
+We also reanalyzed the cases (first four) with k-fold CV method in our previous study for an accurate comparison.
+Table 4 also demonstrates the simulation accuracies of these cases.
+Some other statistical parameters are available in Table 5.
+Table 6 displays discriminate analysis and t-test results conducted using SPSS (Statistical Package for Social Sciences) for all groups.
+Furthermore Table 6 displays the simulation results of the previous related study demonstrating that the simulation accuracy increases when laboratory tests used in FMS diagnosis are supported with SSR parameters [11].
+Figure 7 displays the flow chart for the study and a summary of total simulation accuracies for all cases together.
+Our previous study demonstrated that SSR supported the laboratory test results in the diagnosis of FMS via the simulation accuracy rates obtained using ANN
+This study analyzed the effects of SSR on auxiliary laboratory tests and the physiological tests in the diagnosis of FMS using ANN.
+For example, the simulation accuracy as a result of the classification of laboratory and physiological tests using ANN was calculated as 96.
+When it is considered that the simulation accuracy of the laboratory tests on their own was 95.
+35 % and the simulation accuracy of the physiological tests on their own was 95.
+35 %, it was determined that the evaluation of physiological test findings together with laboratory tests increased the simulation accuracy.
+On the other hand, when physiological test results were supported by SSR findings an accuracy of 95.
+35 % was obtained.
+67 % obtained as a result of the classification of the laboratory test, physiological test and SSR data using ANN is an indicator of the support SSR data provides for both laboratory and physiological tests in FMS diagnosis.
+4 % (97. 67 % with k-fold CV in recent analysis) that was found in the previous study where the laboratory tests were supported with SSR findings demonstrated that SSR parameters supported the laboratory tests more than the physiological tests [11].
+However, it was also observed that all auxiliary methods had different contributions in the diagnosis of the disease.
+For instance, when the physiological tests were evaluated with the laboratory tests, the sensitivity for the patient group is same, but specificity has risen to 96.
+When SSR parameters were added to these tests, the evaluation showed that the sensitivity has risen to 100 %, while specificity for the differentiation of healthy individuals has fallen to 93.
+Furthermore, according to the results of the t-test conducted using SPSS, since p value for SSRLT (SSR), PLT (Lab. Test) data were smaller than 0.
+Test) was smaller than 0.
+1, it could be stated that these three parameters were the most significant three parameters in differentiation of ill and healthy individuals.
+Thus, the discriminate analysis results for only these three parameters are in support of this argument (Table 6).
+When the results of other discriminate analysis are considered, it is observed that total accuracy increased when laboratory tests were supported by both SSR and physiological tests (Table 6).
+As a result, it could be stated that evaluating more than one test all together more sufficient in FMS diagnosis and SSR Physiological Tests Phys.
+3,068 0,08 SSRLT 13,68 0 parameters are also used an auxiliary diagnosis method with laboratory and physiological tests.
+When the overall accuracy is considered and when the laboratory tests and physiological tests were evaluated together, a simulation accuracy of 96.
+51 % was observed, while the laboratory tests were evaluated with the SSR parameters, the overall accuracy rose to 97.
+67 % and sensitivity rose to 100 %.
+This fact demonstrated the significance of SSR measurements in addition to laboratory tests, instead of physiological tests in differentiation of the patients from healthy individuals.
+However, due to the success of the physiological tests in differentiation of the healthy controls, it was proposed that, instead of exclusion of these tests, SSR measurements should be included among the auxiliary diagnosis methods and all three techniques should be benefited from.
+On the other hand the results of this study showed that the SSR is an important parameter in assessment of FMS and FMS disease causes dysfunctions in the autonomic nervous system so that this supports the studies which examined the effect of the SSR on the autonomic nervous system.
+So this study also supports the relationship between the SSR and the FMS dysfunctions.

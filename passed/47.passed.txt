@@ -1,0 +1,111 @@
+We collected daytime pain and nighttime activity data from 18 patients diagnosed with chronic back pain.
+The patients were followed for 6 days and 5 nights.
+Pain levels were collected every 90 min between 0800 hours and 2200 hours using a computerized electronic diary.
+Activity levels were collected using a wrist accelerometer (Actiwatch AW-64).
+The Actiwatch sampled activity counts every 1 min.
+Patients were asked to wear the Actiwatch on their non-dominant arm.
+The pain level measurements were interpolated using cubic splines.
+A mean pain level was calculated for each period 0800 hours to 2200 hours as well as for the 6-day period.
+The difference between the mean pain levels for the 6-day period and each 0800 hours to 2200 hours period was calculated for each patient.
+Nighttime activity data were analyzed using the Actiwatch Sleep Analysis software.
+Correlations were calculated between the Actiwatch Sleep Analysis variables and the mean pain level differences for each patient and period.
+The correlation analysis was performed with SPSS 7.
+We were unable to show any signiﬁcant relationships.
+A different approach to analyze the data was used.
+Neural Network was trained using the original nighttime activity level time series from 10 randomly selected patients.
+Recall was then performed on all the activity level data.
+Correlations were calculated between the pain level variance for the 6-day period for each patient and the corresponding difference in the SOM output coordinates.
+The correlation was found to be r = 0.
+We conclude that daytime pain levels are not directly correlated with sleep in the following night and that sleep is not directly correlated with daytime pain levels on the following day in this group of patients.
+Patients who experience large ﬂuctuations in daytime pain levels also show a higher variability in their nighttime activity levels and patterns.
+Even though we were unable to show a direct relationship between daytime pain and sleep, it may be reasonable to assume that better pain control resulting in less daytime pain ﬂuctuations can provide more stable nighttime activity levels and patterns in this limited group of patients.
+By using a neural network model, we were able to extract information from the nighttime activity levels even though a traditional statistical analysis was unsuccessful.
+Patients with chronic back pain may complain of disturbed sleep [1–3].
+It is often assumed that poor sleep in this group of patients may contribute to increased daytime pain.
+There may also be associations between sleep and mood, which may further affect patient’s perception of pain.
+Many times, patients with chronic back pain are treated with antidepressants, often with sedative properties, in an attempt to provide better nighttime rest and secondly for improved daytime pain control [4].
+Pain is a subjective experience which makes it difﬁcult to measure and analyze.
+However, analysis of pain levels collected at different times from the same patient may be more easily performed.
+If a scale between 0 and 10 is used, the scale may not always follow linear properties.
+Analysis of pain levels collected from different patients can be more difﬁcult, since the measurements are subjective.
+In this study, we have correlated pain levels with activity levels collected from the same patient.
+Sleep can be evaluated using polysomnography, however, it requires extensive preparations.
+It has to be performed in a laboratory environment and is expensive.
+More recently, activity monitors such as the Actigraph (Minimitter Inc. ) are available for studies of sleep quality [5].
+There are software packages which may be used to analyze the information from the activity monitor, and a number of sleep parameters may be derived [6–10].
+Studies have shown that activity monitor derived sleep parameters correlate with the information provided from polysomnography.
+We used the Actigraph activity monitor and its software package to investigate nighttime activity (sleep) in the patients enrolled in this study.
+The neural network analysis used in this study was based on a Self-Organizing Map Network (SOM)
+Neural networks have been used in a variety of applications and in many ﬁelds including medicine [12, 13].
+The SOM network provides a powerful tool for analyzing problems which involves categorization and pattern recognition [14, 15].
+The algorithm used in the SOM network allows the order in the data to be preserved in the output.
+Another advantage with SOM networks is their insensitivity to noise, since it will be evenly distributed throughout the entire output layer.
+Pain is typically measured using a linear scale between 0 and 10, where 0 indicates no pain and 10 indicates the worst possible pain.
+Often, patients are asked to record their pain levels using a paper diary [16].
+In this study, we have used a semi-automatic pocket sized electronic pain diary.
+This diary may be programmed to prompt the patients to enter a current pain level at various time intervals.
+We programmed the diary to prompt the patients to enter a pain level between 0 and 10 every 90 min between 0800 hours and 2200 hours for 6 consecutive days.
+Patients were allowed to enter additional pain levels if they experienced ﬂuctuations in their pain outside the scheduled measurements.
+However, additional pain measurements only contributed an additional 10–15% compared to the scheduled measurements in any single patient.
+Since the pain levels were only collected on average every 90 min and at uneven intervals, an interpolation using cubic splines [17, 18] was performed.
+A total mean pain level was calculated from the interpolated pain levels for each patient.
+Also, a daily mean pain level was calculated for each patient and each day.
+The difference between the total pain level and the daily pain level was calculated for each patient and each day.
+Pain level variance was also calculated for each patient for the entire measurement period.
+Nighttime activity was recorded using an Actigraph AW64 (Minimitter Inc. ) for the corresponding 5 nights.
+The Actigraph is an automatic passive device for activity monitoring [19].
+It is often placed on the non-dominant arm, as in this study, but other sites may be used.
+It is assumed that the Actigraph reﬂects the patients overall activity.
+Previous studies have established good correlations between different monitoring sites as well as between Actigraph data and other measurements of activity [20].
+The Actigraph can be programmed to sample activity counts at different time intervals.
+In this study the sampling rate was set to 1 min.
+The Actigraph has been used to characterize sleep quality through a number of different parameters which can be derived using a sleep software package [6].
+In the ﬁrst part of this study, the Actigraph sleep software was used to derive a number of parameters which were then investigated for correlations with daytime pain levels.
+The sleep software parameters used were: Actual Sleep Percentage, Sleep Efﬁciency, Wake Bouts, Number of Minutes Immobile, Number of Immobile Phases and Movement/Fragmentation Index.
+A bedtime of 2400 hours and a get up time of 0600 hours was assumed.
+In the second part of the study, the activity data was analyzed using a neural network technique where a SelfOrganizing Map Network (SOM) was used [11].
+The software package used was the Nworks Professional 2 (NeuralWare Inc. ).
+The SOM consisted of 360 processing elements in the input layer, 10 processing elements (10 × 1) in the Kohonen layer and 1 processing element in the output layer.
+The network was trained with the activity data from 10 randomly selected patients.
+Recall was then performed on the entire data set, one patient at the time.
+The output from the SOM provides a measurement of the appearance of the nighttime activity level data from each patient and each night.
+A difference between the maximum and minimum SOM output data was calculated for each patient as a measure of ﬂuctuations in that particular patient’s nighttime activity.
+In the ﬁrst part of the study, correlations were calculated between each patient’s difference in daily mean pain levels and the corresponding sleep software parameters for the previous night as well as the following night using SPSS 7.
+In the second part of the study, we calculated correlations between the pain variance and the SOM difference for each patient.
+The average age of the patients was 52 ± 10.
+Of the 19 patients who were initially enrolled, 18 patients completed the study.
+We were unable to show any signiﬁcant correlations between the Actiwatch sleep parameters and daytime mean pain differences, which would have indicated a temporal relationship between sleep and daytime pain (day before and following day).
+The analysis of correlations between the SOM difference and pain variance revealed a signiﬁcant relationship for the entire group of patients.
+73 (p < 0. 01) was found (Figure 1).
+The SOM difference, being a measurement of the ﬂuctuations in patient’s nighttime activity levels/patterns, provides information about how different each patient’s nighttime activity was during the measurement period (Figure 2).
+The length of each line (each patient), indicates how different each nighttime activity levels and patterns were.
+For example, patient number 11 showed a large difference between each nighttime activity levels and patterns, while Fig. 2.
+The output is standardized to a value between −1 and 1.
+patient number 17 appeared to have similar nighttime activity levels and patterns during the measurement period.
+A combination of the electronic symptom diary and the activity monitor can be used to measure pain semiautomatically and nighttime activity continuously.
+This reduces problems of inaccuracy and likely improves complience.
+The electronic diary requires an active patient input, or else will automatically prompt the patients to do so.
+Also, previous measurements are not available to the patient, which will likely reduce the possibility of patient recall bias.
+The activity monitor is a passive device which requires no active patient input and actually provides an objective measurement of the patients overall activity.
+Previous studies [20] have indicated that the placement of the activity monitor is less important as long as it is placed consistently at the same location during a study.
+It has also been shown that the activity monitor correlates well with other measurements of activity.
+The actiwatch has been used to monitor sleep [6], and together with specialized software, it may be used to derive a number of sleep parameters which has been shown to correlate well with other sleep monitoring methods.
+The analysis of correlation between the sleep parameters derived from the Actiwatch using the sleep analysis software and the individual mean pain levels did not reveal any signiﬁcant relationships.
+We were unable to show a temporal relationship between the sleep parameters and the mean daytime pain levels the day before or after.
+Even though the sleep analysis parameters have been shown to correlate with information derived from polysomnography, they are calculated using fairly simple algorithms based on the number of activity counts within a deﬁned period of time.
+This approach does not consider the appearance and patterns of the data since it utilizes a strictly rule based system to interpret the activity information.
+By using a neural network technique (SOM), the activity level data can be analyzed not only depending on its level, but also depending on its appearance and patterns [14].
+The SOM network is a helpful tool for providing categorization and pattern recognition.
+It is important that the order in the data is preserved in the output.
+This means that output values that are close to each other implies that the input data is similar while output values that are far apart indicates a large difference in the input data.
+A SOM network is not sensitive to noise, since it tends to be evenly distributed throughout the output layer.
+We could show that there was a signiﬁcant correlation between the difference in the SOM output data and the daytime pain variance for each patient over the entire study period.
+The SOM difference may be considered a measurement of how different the nighttime activity is from night to night in a single patient.
+A patient with a small SOM difference likely behaves similarly from night to night, while a patient with a large SOM difference may have an uneven nighttime activity pattern.
+The daytime pain variance is an indicator of the magnitude of pain ﬂuctuations during the study period.
+A relationship between these two parameters may indicate that large ﬂuctuations in nighttime activity is related to large ﬂuctuations in daytime pain.
+This may indirectly suggest that better daytime pain control may provide a more homogenous nighttime activity with less ﬂuctuations from night to night in this category of patients.
+In the ﬁrst part of the study, conventional statistical analysis was used to explore correlations between daytime pain and nighttime activity.
+A neural network model was used to further explore the nighttime activity data in the second part of the study.
+The neural network model provided information about the appearance of the nighttime activity data, which could be correlated with daytime pain ﬂuctuations.
+This study was funded by a grant from Mayo Foundation, Rochester, Minnesota.

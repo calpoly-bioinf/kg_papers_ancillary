@@ -1,0 +1,322 @@
+A neural network model is proposed to obtain a numerical description of pain mechanisms.
+The modeling presented here is based on the various assumptions made by the results of physiological and anatomical studies reported in the literature and by ourselves.
+Those studies, especially on the neural connections between the neural units concerned in the pain mechanisms do not give conclusive evidence, and some of the results are claimed by other investigators.
+The assumptions used are unverified for this reason.
+The quantitative model presented is only a simplified one and simulates only one directional ascending and descending pathway for the pain sensation in which peripheral receptors, afferent A, A 5, and C fibers, and the receptive cells of spinal cord, brain stem, thalamus, and the cerebral cortex are involved.
+No interactions from the lateral adjacent fields such as lateral inhibition and facilitation have been proposed, and no analytical elucidation of spatial information processing mechanisms has been made.
+Only the firing characteristics of the neural cells related to pain generation are investigated and compared with the physiological results.
+Adaptation effect and conduction velocity of neural fibers are considered in the model, however the fibers in each neural unit are assumed to have constant conduction velocity and firing threshold.
+Model simulation has been carried out for the single square-wave pulse and the periodic repetitive pulse stimulation applied on peripheral receptors.
+The activities of the neural cells of periphery and the upper brain are represented by Wilson- Cowan's nonlinear differential equation, which considers the ongoing activity of neurons.
+Pain sensibility is mainly estimated by the firing activities of the thalamic posterior nuclei group (PO) and centromedian parafascicular complex (CM-Pf) cells, while the touch sensibility is estimated by the firing activities of thalamic ventral posterolateral nuclei (VPL) cells and the first somatic sensory area (SI) cells in the cerebral cortex.
+Fast stinging pain and slow burning pain can be simulated quite well, and the modality of the graded touch sensation can also be simulated with this model.
+The results of the simulation are in good agreement with some of the physiological studies notwithstanding the simplified model with some unverified assumptions.
+It suggests that the proposed neural network model would be appropriate and available to obtain many different sensory modalities concerned with not only the pain but also the tactile mechanisms.
+I. INTRODUCTION A LL of those who have normal sensibility would often meet with an unpleasant sensory modality, that is pain.
+For human beings, pain is important information which induces imperative protective reflex and rapid reflex withdrawal movements.
+The lack of pain sensibility may expose them to dangerous events.
+Up to now, a large number of physiological and pathological studies on pain mechanisms have been attempted, and electrocutaneous stimulation has been recently developed for the release of chronic and acute pain of cancer disease
+Physiologically, pain is classified into three types: 1) first pain, or fast pain, is a sharp stinging pain mediated by small myelinated
+As fibers, 2) second pain, or slow pain, is a durable burning pain mediated by unmyelinated C fibers, and 3) aching pain is continuous dull pain induced from the viscera and somatic deep tissues.
+Concerning the pain mechanisms, there are two opposing theories: 1) specificity theory proposed by von Frey [8], which implies the existence of receptors which respond only to noxious stimulation and projects to its own pain center in the brain, and 2) pattern theory proposed by Sinclair and Weddell [9], [10], which holds the spatiotemporal nerve impulse pattern for pain produced by intense stimulation of nonspecific receptors.
+This means there are no specific fibers and no specific endings for pain sensation.
+Both theories, however, do not sufficiently agree with the physiological aspects on pain modality.
+In 1965 an attempt to harmonize these theories was made by Melzack and Wall [11].
+A new theory proposed by them, the gate control theory, suggests that spatio-temporal impulse patterns transmitted from large and small peripheral afferent fibers are modulated in the spinal cord system, and the modulated afferent patterns determine pain modality in the transmission cells in the dorsal horn, from which the pain sensation is projected towards the brain.
+Further observations have been made concerning the physiology of pain; however, the pain mechanisms have not yet been elucidated, and the quantitative analysis of pain conduction has never been done.
+In the present study, we propose a neural network model of pain mechanisms and try to obtain the numerical description of pain modality including the touch sensation by the computer simulation.
+The model is designed mainly for the ascending pathways facilitated by the cutaneous stimulation.
+Visceral and deep somatic pain-conducting pathways are consid INPUT
+A n(x,t) Pain receptors are free nerve endings which generate the discharges associated with pain sensation.
+They are conducted by myelinated As and unmyelinated C fibers in the peripheral afferent nerve systems and are transmitted on the lateral spinothalamic tract of spinal cord and thalamus.
+According to the gate control theory [ 1], it could be assumed that AP fibers, which respond to touch, pressure, or tension, also participate in the pain mechanisms.
+In fact pain sensation can be reduced by applying light pressure or vibration.
+The receptors for such sensation are Pacini's corpuscles, Merkel's corpuscles, or Meissner's corpuscles.
+Excessive input of such mechanical or thermal stimuli, or so-called nociceptive stimuli, induces the firing of pain receptors.
+In cases where the electrical stimulus is applied, almost all receptors are excited.
+Hillman and Wall suggested that some of Rexed's lamina V spinal cord cells in dorsal horn responded to mechanical and electrical stimulations
+In addition, electrical stimulation on the afferent pathways results indicated that lamina V cells might be fired polysynaptically by large myelinated fibers (A. ) and monosynaptically by small myelinated fibers (As ).
+Receptor population, which innervates only one neural fiber, is called the receptive field.
+On the contrary, stimulation on a receptive field does not always activate a single specified fiber.
+It means that the superposition of neurarchy exists in the peripheral tissue.
+Since it could be postulated that the peripheral nerves would homogeneously distribute in the specified cutaneous tissues, they might be represented as a "neural unit" which activates with the large-scale activity suggested by Wilson and Cowan [13].
+According to Johnson [14], the effective stimulus intensity I(r) on quickly adapting afferent fibers is estimated by the relationship, where I is the vibratory amplitude at the center of tactile stimulation probe with a 2-mm diameter tip, and r is a distance from the center of probe.
+His estimation suggests that the peripheral receptors might be spatially distributed in the tissue from the corresponding single neural fiber, and the input stimulus would be spatially dispersed in the tissue.
+However, the effective stimulus intensity involved the totally integrated skin mechanisms which were dependent on the distribution of receptor population, stimulus attenuation, stress distribution in the skin as well as the successive recruitment of fibers.
+As he mentioned, direct observations on neural populations are rarely possible, and the lack of an effective description of skin mechanics prevents predicting the basic relationships determining the t(x) Fig.
+The problem of reconstructing the activity in a population of neural elements from the characteristics of individual elements is not unlike the problem of reconstructing the behavior of a gas from the laws governing the behavior of individual molecules that is the original problem of statistical mechanics.
+It is a very common case to postulate a Gaussian distribution for the neural population as proposed on the visual receptor distribution [15].
+Williams also mentioned that Gaussian distributions are common in biology and several continuous distributions can be fitted by Gaussian functions [16].
+Regarding the Johnson's distribution, the response characteristic beneath the probe showed inconstant and not so definite as represented by the above equation.
+Distribution profile of the neural response versus distance from the center probe showed a great variability and it could be also represented by the Gaussian distribution.
+On the other hand, stress distribution in the cutaneous tissue varies with the degree of mechanical deformation and it resembles a Gaussian distribution when an intensive force is applied [17].
+Noncontact stimulation such as thermal radiation or contact electrical stimulation delivers different characteristics of the stimulus intensity from those of Johnson's distribution into the cutaneous pain receptors and the effective stimulus intensity will be more widely spread.
+Brennen reported that an approximately exponential current-distance relationship was assumed for the transcutaneous stimulating strip electrode but that the dependence of skin-electrode impedance on current density distorts the exponential characteristic [18].
+In our model, therefore, we postulate the distribution of peripheral receptors as the following Gaussian distribution (Fig. 1) though it is not certainly substantiated: Input stimulus intensity is also assumed by the following equation: I x OX) exp .
+2 7TU F2 a Hence, the effective spatio-temporal stimulus intensity into the neural fibers at any given point xm will be provided by the convolution integral of the receptor distribution and input intensity After receiving the stimulus intensity S(xm, t), each peripheral neural unit corresponding to A, A,,, or C afferent activates itself.
+In this study, the Wilson-Cowan's neural equation was applied to represent the activities of the neural units [13], considering the ongoing activity [12] as follows: dFi )'
+In the larger diameter fiber it shows the higher conduction velocity, the lower threshold and the more adaptation.
+observed that the low threshold spinothalamic tract neuron adapted to the mechanical stimuli
+It could be inferred from the physiological aspect [20] that the adaptation would have occurred through the accumulation of sodium ions (Na+) inside the nerve cells and in consequence by the elevation of firing threshold of them.
+Hence the adaptation phenomenon of neural unit could be represented by the following equation, modified from the Stein's equation [21], Oji =
+In (4) and (5), i = 1, 2, and 3 which correspond to AP, A6, and C fibers.
+In the model, conduction velocity of each fiber is also considered only within the peripheral afferents towards the spinal cord area.
+According to Georgopoulos [22], conduction velocities of afferent A3, A, , and C fibers were measured as v = 25 - 80 m/s, v, = 3 - 40 m/s, and v, = 0.
+Ganong represented in his publication that v=30-70 m/s, v, =12-30 m/s, and v=0.
+Although the conduction velocities of peripheral afferent fibers are widely distributed, we assume the velocities to be constant as v, = 70
+4 m/s for the simplification of the model and that the distance between the periphery and spinal cord cells is 0.
+35 m. Model construction of the central neural system of pain conduction is based on the physiological investigations mentioned below, involving some assumptions.
+Central neural units associated with pain sensation are classified into four major segments; spinal cord, brain stem, thalamus, and cerebral cortex.
+We simplify the description of the neural pathways from peripheral receptive fields towards the upper brain, as shown in Fig.
+2, that may be appropriate and useful for the analysis of pain mechanisms.
+In the figure, symbol =represents the excitatory interaction and -' the inhibitory interaction as well.
+Melzack and Wall suggested that stimulation of peripheral tissues evoked nerve impulses which were transmitted to three spinal cord systems; (1) cells of substantia gelatinosa (SG) in the dorsal horn, (2) dorsal column fibers that projected towards the brain, and (3) first transmission cells in the dorsal horn [11].
+[12], low threshold afferent A. fibers may end first on Rexed's lamina IV cells in dorsal horn which in turn excite lamina V cells, and there are some interneurons in lamina II and III cells which postsynaptically and in part presynaptically inhibit lamina V cells.
+Substantia gelatinosa and transmission (T) cells may be equivalent to lamina II/III and V cells respectively so that T and IV cells are presumably inhibited by SG cells.
+It was anatomically observed that there were axo-dendritic synapses between SG cells and IV cells [25], and it was physiologically observed that inhibitory postsynaptic potential evoked in lamina IV and V cells [26], [27].
+In addition, the existence of other inhibitory interneurons was observed in the dorsal horn, which gave rise to the inhibition effect on IV and V cells, in which inhibitory postsynaptic potentials were evoked by the electrical stimulation of low threshold afferent myelinated fibers [1], [26].
+It suggests that the inhibitory interneurons (15) bring the double postsynaptic inhibition on T cells.
+Hence On the other hand the windup phenomenon which is represented by Price et al.
+It means that there are some excitatory interneurons in dorsal horn (E) which bring the progressive increase in number and frequency of spikes of the lamina V transmission (T) cells evoked by the stimulation of high threshold fibers.
+There also exists a large number of lamina V cells which directly respond to the stimulation of both myelinated and unmyelinated nociceptive afferent fibers [12], [23].
+In contrast, the activities of the SG cells are inhibited by the stimulation of small diameter fibers, however it is not clear whether the inhibition is caused by the inhibitory postsynaptic interneurons (14) or by the inhibitory presynaptic interactions of the afferent fibers [28], [29].
+In our model, we assume that A8 and C fibers terminate to SG cells via the postsynaptic 14 interneurons as suggested by Yokota
+Hence, A8=E,C=*E= T,A86 =T, Ascending Pathway of the Central Neural System above Spinal Cord: Based on the detailed consideration of various physiological references, we conclude and assume that the receptive neural cells may be dorsal column nuclei (DCN), mesencephalic reticular formation (MRF) and bulbar reticular gigantocellular nucleus (BRF-GC) in the brain stem, ventral posterolateral nuclei (VPL), posterior nuclei (PO), and centromedian parafascicular complex (CM-Pf) in the thalamus, and SI, second somatic sensory area (SII) and the cortical associated area with SI and SII in the cerebral cortex (H).
+The lemniscal system responds to mechanical stimuli such as touch, pressure, and vibration, which is rapidly transmitted by large myelinated fibers.
+DCN in this pathway receives the peripheral large afferent (A. ) fibers and project on the centrolateral ventrobasal nuclear complex (VB) of the thalamus.
+The axons of VPL of VB terminate in the somatic sensory area SI and SII of the cerebral cortex.
+VPL responds to the cutaneous mechanical stimuli and kinetic stress in deep tissues but not to pain or noxious stimuli [31], [32].
+BRF-GC receive the synaptic connection from lamina V (T) cells and they are regarded as a kind of translator towards the centromedian cells (CM) in the thalamus.
+Spinothalamic afferents from the spinal cord region reach the MRF through the adjacent fields of bulbar reticular formation and transmit the afferent information towards the thalamus.
+The spinothalamic pathway may terminate on PO through MRF and projects on the cortical area, probably on SII and partly on SI.
+PO cells located in the hind region of VB are activated by mechanical and noxious stimuli.
+Scientists researching the physiological and anatomical aspects mentioned [32]-[36] hold that PO cells serve for the conduction and perception of pain and partly for tactile mechanisms.
+Poggio and Mountcastle especially have stated; ". .
+whereas the cells of VB are responsive to highly specific mechanical stimuli delivered to the skin, those of PO are in the majority sensitive to noxious stimuli.
+While VB neurons are modality specific, those of PO may be responsive to very diverse types of stimuli, and frequently the same cell may respond to light mechanical stimulation of one part of its respective field, to noxious stimulation of another part of the field. "
+Hence, we assume in our model T => BRF-GC, T==> MRF ==
+On the other hand, afferent input from BRF-GC projects on the thalamic intralaminar nuclei including CM-Pf which then evokes pain sensation [32], [33].
+It may be considered that the burning pain (slow pain) is served by this pathway.
+Facilitation of CM-Pf may be brought about directly and indirectly through projection on the associated area with SI and SII in the H. Stimulation of the thalamic intralaminar nuclei CM-Pf facilitates VPL and SI.
+Reciprocally stimulation of VPL and SI results in the inhibition of the thalamic intralaminar nuclei [35], [37].
+Thus it may be postulated that VPL intervenes between CM-Pf and H as well as SI as follows, BRF-GC =
+VPL =* H, and VPL =
+Descending Pathway: Descending systems also participate in the control of pain conduction.
+Pain sensation depends not only on the ascending inputs but also on the feedback information from the upper brain towards the dorsal horn.
+Electrical stimulation on MRF induces inhibition of the activity of lamina V cells that results in a powerful analgesia [38].
+Similarly the presence of tonic or evoked inhibitory effects on dorsal horn interneurons has been reported to derive from the somatosensory and orbital cortex [39], [40], the pyramidal tract [41], and the brain stem [42]-[44].
+In higher mammals many cells of the cerebral cortex can directly influence spinal cord cells via the pyramidal tract [38] the origin of which exists in the somatosensory cortex SI, SII, and the motor cortex [45].
+In the cat spinal cord, the pyramidal tract (PT) terminates predominantly in the dorsal horn and most of the PT fibers terminate in laminae IV and VI.
+PT stimulation was found to inhibit most of the lamina IV cells and to excite most of the lamina VI cells; it exerted more evenly mixed effects in lamina V [41], [43].
+Cortical stimulation was also shown to evoke a depolarization in certain afferent fibers and thereby to inhibit sensory input presynaptically [39], [46].
+This depolarization was measured as a negative dorsal root potential, however intracellular recording was clearly necessary to test for postsynaptic inhibition in these cells.
+Lundberg has stated ". .
+it is possible that the proportion of interneurons in the spinal cord that receive IPSP's from the sensorimotor cortex is larger than found in our first investigation [47]. "
+Further search for inhibitory postsynaptic effects evoked by pyramidal tract stimulation in lamina IV cells seems desirable before the relative importance of pre- and postsynaptic inhibition can be assessed.
+anatomically investigated the projections of cerebral cortices and reported that the first motor (MI) and SI and SII projected markedly to the central part of the posterior horn in the lower spinal cord which was the area between the substantia gelatinosa and the lamina IV [45].
+Rethelyi and Szentagothai also found anatomically the synaptic complexes of the dorsal horn cells with the pyramidal tract fibers.
+They reported that descending spinal pathways would have excellent opportunity to get into synaptic contact with the dendritic branches of the pyramidal cells and with the substantia gelatinosa.
+Their anatomical diagram also showed that forward conduction from the SG was secured by large neurons of lamina IV the dendrites of which were embedded into the neuropil of the SG [48].
+As mentioned above, lamina IV and V cells are inhibited by the pyramidal tract feedback loop, thus we assume a descending system connected between the associated area of SI and SII (H) and T cells through the interneurons SG and inhibitory interneurons in the dorsal horn (15) as in the following, MRF= I5T,H=SG-* T, andH=I5T.
+On the other hand, conditional stimulation of SII evokes the facilitation of MRF, and the electrical repetitive stimulation of the motor cortex which is projected from the somatic sensory area results in the excitation of the bulbar reticular formation [49], [50].
+In the lemniscal system, DCN is also indirectly projected back from the somatic sensory area SI [32].
+Kusama et al. studied, using the Nauta-Gyrax or its modified method, on the projections of the somatosensory areas in the lateral surfaces of the cortex of a cat: medial and lateral parts of cronal gyri (SI) project mostly to the VPL cells and the posterior part of the SI also projects fibers to the cuneate nucleus of DCN [45].
+Andersen et al. recorded extracellularly the spike responses of cuneate neurons in DCN of the anesthetized cats to the electrical stimulation of a sensorimotor cortex.
+They observed that the responses evoked in the cuneate neurons of DCN were depressed by descending volleys from the sensorimotor cortex [39].
+Jones and Powell showed anatomically, using the Nauta technique that corticothalamic fibers returning from SI and SII are distributed in an organized manner to the VB cells of a cat.
+Heavy terminal degeneration fills both the lateral VPL and the medial nucleus ventralis posteromedialis (VPM) subdivisions of the nucleus ventralis posterior [51].
+Iwama and Yamamoto physiologically studied the evoked responses of the thalamic somatosensory relay nucleus in VB, which corresponded to the cells in VPL and VPM, to electrical stimulation applied to the somatosensory cortex.
+They observed that the cortically induced action was inhibitory upon the thalamicevoked potentials [52].
+These anatomical and physiological findings suggest that the lemniscal negative feedbacks from SI serve the regulation of spike discharges in DCN and VPL cells as in the following, Pain and touch sensations are served by these neural cells, each of which may participate as a "neural unit" with the large scale activity in the sensation.
+In our model analysis large-scale activities of the neural units are represented by the Wilson-Cowan's differential equation, involving the ongoing activity of neurons as follows, dFi _ __
++ (I -rF)1 e {i dt J±(1- IJ~ + exp {-vPj(C1® rj; - o1)} where i =
+j = 1 18, which correspond to Al, A,, and C fibers, SG, 14, 15, IV, T, E, BRF-GC, MRF, CM-Pf, DCN, P0, H, VPL, SI and SII cells, respectively.
+By defining (1)- (6) now, our neural network model is completely specified.
+Computer simulation of the overall model for pain and tactile mechanisms has been made on a HITAC 8800/8700 digital computer (Hitachi Manufacturing Company), using the fourth-order Runge-Kutta method to solve the nonlinear differential neural equations.
+The simulation program was written in Fortran.
+Parameter determination has been carried out on a trial and error basis by using the iterative method of model simulation.
+The values of various parameters except the conduction velocity, refractory period, and membrane time constant are not based on the counterpart physiological data.
+They are merely substituted to produce an optimal fitting of the empirical data to the model behavior.
+The coupling coefficients iCj especially, have been roughly determined to represent the degree of inhibition and excita tion since they have not been experimentally verified in current physiological and anatomical investigations.
+The precise procedure of parameter determination is as follows.
+The firing threshold (0i) and the coupling coefficient (jCj) are important parameters to dominate the firing modalities of the whole neural units.
+Since the other parameters exert less influence on model behavior, the values of a, ain,I1, vi have been arbitrarily determined.
+Input stimulus intensity and stimulus frequency have been chosen at Ao = 30 - 200 and f(t) = 10 - 500 pps for the iterative examination of model parameters.
+Refractory period ri and membrane time constant yi are about 1 ms and 5 ms, respectively, which are physiologically substantiated [13], [24].
+2) Adaptation phenomenon of peripheral afferent fibers can be simulated by applying the set of first-order differential equations (4) and (5) in which the stability of the steady-state solution depends on the values of ai, /Pi, ij, and ki.
+According to the Routh-Hurwitz criterion the stable solution is given under the following condition for ki > 0
+* = firing rates at the steady state.
+If ki< Ki, overdamped decreases and damped oscillatory changes in firing rate are observed to step changes in the input.
+Adaptation of firing activity regarded as the overdamped increase of firing threshold and decrease of firing rates can be simulated fitfully when this condition and the following empirically derived relationships [53] are fulfilled: 1) Ki > ki, 2) ai, Pi « ki, 3) the differences between fPi and ai, (Pif- ai) should be a few, and 4) the product of a, and /3i, (ai. fi) should be fairly large.
+3) Determination of the firing thresholds 0i is based on the following criteria.
+a) Firing thresholds of the neural units representing the peripheral afferent A. , A. , and C fibers conform to the physiological relation that the larger diameter fiber shows the lower threshold, thus 0, < 02
+b) Neural units concerning the tactile mechanism should have lower thresholds than those for pain sensation since they respond to low stimulus intensity.
+c) Firing thresholds of the neural units constituting the excitatory interaction should rather be lower than those for inhibition because no response to an unexpected dangerous input would be transmitted to the central nervous system if inhibition exceeds in the excitation.
+a) Neural units on the lemniscal system respond to nonnoxious low stimuli and transmit the tactile information to cortical cells.
+The coupling coefficients on this pathway 13CI, 13CI7, 15CI6, 16CI3, 16CI7, 17CI6, 18C16, have been determined so as to simulate that the firing modalities of DCN, VPL, and SI rates of these units should gradually increase with the graded elevation of low input intensity.
+On the determination of these coefficients the others must be all zero in order to investigate only the conduction of tactile information.
+Some dominant factors producing analgesia have been known [54].
+The most simple case is caused by the deficiency or injury of small nociceptive, primary afferent fibers, which can be simulated by setting the coupling coefficients 5C2, 5C3, 8C2, 8C3, 9C2, and 9C3 as zero.
+Under this condition the other coupling coefficients 4C, 6C1, 7C1, 7C4, 7C6, 8C4, 8C6 and 8C7 representing the degree of excitatory and inhibitory connections between A#, SG, IV, I5 and T cells are determined so as to simulate analgesia.
+That is, the firing rates of T cells must be very few or hardly occurred even if continuous high stimuli supramaximal for C fibers are applied.
+In contrast, the deficiency or damage of large nonnociceptive primary afferent fibers would be one of the cause-producing hyperalgesia which can be simulated by setting the coupling coefficients 4C,, 6CI, and 7C, as zero.
+It results in no transmission of the input on A. fibers and no inhibition from SG and I5 on T cells.
+In consequense, firing rates of T cells are extremely increased by As and C fibers' facilitation even if low intensity input supraliminal for A. fibers is applied.
+Under this condition the coupling coefficients between small primary afferent A. , C fibers, and spinal cord cells, 8C2, 8C3, 8C9, 9C2, and 9C3 are determined so as to simulate hyperalgesia.
+By using the coefficients given above, another group of coupling coefficients 4C5,5 C2, and 5C3 which represent the inhibitory connections between peripheral nociceptive afferents and SG cells, are determined.
+Meanwhile the firing activity of T cells is iteratively checked whether it shows the desirable response modality regarding touch and pain sensation for the graded increasement of stimulus intensity.
+The coupling coefficients on the spinothalamic and cortical pathway IC8, l C18, 14C11, 17CI4, and 18C,4 are determined so as to simulate the first pain modality in MRF, PO, and SII cells which should show high firing rates when high stimulus intensity supraliminal for A. fibers but subliminal for C fibers is applied.
+Similarly the coupling coefficients I0C85 ,0C185 12C105 12C179 15C12, and 16C12 interacted between BRF-GC, CM-Pf, and cortical cells are also determined in order that these cells may show the firing modality of second pain when very high stimulus intensity supramaximal for C fibers is applied.
+The coupling coefficients of the feedback system from the upper brain to the spinal cord cells 4C15, 6C11, and 6C15 are determined by changing the values of these coefficients and 7CI
+so as to simulate that the excitatory and inhibitory inputs to IV cells should optimally facilitate T cells for the low stimulus intensity.
+After the initial set up of all coupling coefficients, the response characteristics of each neural unit are examined by applying various pulse stimulation.
+Furthermore, the coupling coefficients are adjusted to produce an optimal fitting of the empirical data to the model behavior regarding tactile and pain sensation units show the tactile modalities.
+It means that the firing From the results of preliminary iterative examination, parameters of the model have been decided as a = ain=4,7 =
+= 017 = 018 =3, 4CI= 5,4C5= -30,4CI =
+=-5, 13CI = 30, 13C17 =
+14CI = 6, 15CI2= 4, = 2, 16CI2 = 5, 16C13 = 8, 16CI7 - -5, 17CI4 = 2,
+For simplifying the model we postulate that the same spatial variance a is applied for each of A. , A,, and C fibers.
+The temporal mode of input stimulus is given by - T cells - CM-Pf cells Fig.
+Stimulus is applied at t = 0.
+where tp is stimulus pulse width and T is stimulus pulse frequency.
+In the model we regard the excessive increasement of neural activities (firing rates) of T, PO, and CM-Pf cells as the occurrence of the pain sensation in these cells.
+PO cells respond to not only the pain but also the mechanical stimulation.
+However it may be postulated that the so-called fast stinging pain is perceived in the PO cells and projected to the somatic sensory area of the cerebral cortex SII.
+The subsequent slow burning pain is mainly perceived in the CM-Pf cells and projected to the cortical associated area H when high stimulus intensity is applied.
+On the other hand, sensations such as touch, tension, or vibration are evoked in VPL cells and projected to the somatic sensory area SI.
+The results of model simulation have been obtained for the single square-wave pulse and the periodic pulse sequence stimulations applied on peripheral tissues.
+3(a)-(d) show the temporal patterns of the firing rate of the neural units when the peripheral tissues are stimulated with a single square-wave pulse of 1 ms width at t = 0.
+Amplitudes of the stimulation are Ao = 60, 100, 140, and 180, respectively.
+Maximum firing rate of each neural unit given by (4) and (6) becomes 1. 0.
+In each figure it can be seen that there is an absence of firing activity of T cells just after the stimulation.
+The brief latency period to the initial burst is about 5 ms which is equivalent to the A fibers' conduction time from periphery to the spinal cord T cells.
+The duration and the amount of firing rate of the initial burst of T cells are increasing with the elevation of stimulus intensity and this approaches the maximum when high intensity is applied.
+Maximum duration time of the initial burst is about 27 ms as shown in Fig.
+For the low stimulus intensity, firing activity of the thalamic PO cells does not appear so much, and particularly the activity of CM-Pf cells hardly occurs because of no facilitation of C f(t) =f(t + T) VI U1) (a) Fig. 4.
+In the case where the stimulus intensity is increased above A, threshold, a secondary low burst of T cells appears at about 50 ms, which is equivalent to the conduction time of A, afferents from the periphery towards the spinal cord system.
+The activity of PO cells slightly increases but is not enough for the pain sensation as can be seen in Fig. 3(b).
+The stimulus intensities used for the stimulation given in Fig 3(a)-(c) are not sufficiently high enough to activate C fibers so that the firing of CM-Pf cells hardly occurs.
+When high stimulus intensity above C fiberthreshold is applied (Fig. 3(d)), large firing activities of T and PO cells and slight increasing of the activity of CM-Pf cells appear at about 250 ms after the stimulation, of which period is equivalent to the conduction time of C fibers between the periphery and the spinal cord cells.
+In contrast, the firing of VPL cells appears soon after the stimulation with the same temporal modality as the initial burst of T cells.
+It may be supposed that the mechano-perception has occurred at the moment of stimulation with a short latency.
+From the results mentioned, relationships between the applied stimulus intensity and the duration as well as the maximum firing rate of the initial burst of T cells are shown in Fig.
+4 where the duration time corresponds to the period in which the firing rate of T cells is maintained above 0.
+04 of T cells is assumed to be about Ao 30 from Fig.
+[36]).
+Maximum firing rate and maximum duration of the initial burst are 27 ms and 0.
+On the other hand, Fig. 5 shows the relationships between the stimulus intensity of a single electrical pulse and the number of firing spikes as well as the duration of the initial burst of spinothalamic tract cells which correspond to Rexed's lamina IV-V cells (IV or T cells in our model).
+The stimulation was applied to the peripheral sural and plantar nerves of hindlimb of macca luta.
+These relationships are inferred from the results reported by Foreman et al.
+[55], which are rewritten for the comparison of those with our model experiment.
+In the figure, 0 = 1 on the horizontal line represents the nerve threshold which in turn corresponds to the lowest stimulus intensity needed for excitation of those cells.
+The number of spike discharges increases with the increasing of stimulus intensity and approaches a plateau when the strong stimuli over 25 X 0 on sural nerve as well as 10 X 0 on plantar nerve are applied.
+Physiological results concerned with the duration of spike discharges have been obtained only for sural nerve stimulation.
+The characteristic is quite similar to the relationship shown in Fig.
+4(b), that is, the duration of the initial burst increases with the increasing of stimulus intensity and approaches a plateau (27 ms) when the stimulus above 20 X 0 is applied.
+Comparison of the physiological results and the data of model simulation represented in Figs. 4 and 5 provide a good similarity for the relationships between stimulus intensity and the firing activity as well as the duration of the initial burst of T cells.
+First pain has epicritic characteristics in that it is brief and it may be mainly affected by the fast conducting large fibers, A. fibers.
+On the other hand, second pain is characterized as protopathic sensibility in that it is diffuse or poorly localized and often long lasting with longer latency.
+Second pain may be related to the impulses traveling in C fibers.
+Such modality becomes still more remarkable when the repetitive pulse stimulation is carried out.
+6 shows the typical firing patterns of neural cells with respect to pain sensation, which is obtained on condition that stimulus intensity Ao = 120, stimulus frequency f = 300 pps, and the pulsewidth is 1 ms.
+It can be seen that fast elevation of the initial firing bursts of T, VPL, and PO cells occurs soon after the beginning of stimulation.
+The initial firing of each cell is caused by the transmitted impulses of A,B fibers, of which modality represents that the mechanical perception such as touch or vibration may be induced in the cells and projected to the upper brain.
+Particularly, a very high rate of firing of VPL cells associated with touch sensation can be observed at the initial phase of the temporal pattern.
+A high rate of the initial firing bursts of T and VPL cells, however, drastically decreases because of the adaptation of A. fibers, inhibition from the adjacent cells, and the negative feedback from the upper brain.
+At about 50 ms after the stimulation, the activities of T and PO cells are again increased by the conduction of A. fibers' excitation.
+In particular, the firing rate of PO cells comes up to a peak at 120 ms.
+It suggests that fast pain may be evoked in PO cells and projected on the cerebral cortex.
+After a while or 250 ms later from the beginning of stimulation, these cells are facilitated by the conduction of C fibers-excitation.
+It must be noticed here that CM-Pf cells are abruptly activated though they have not provoked so high a rate of firings till then.
+As mentioned, the SI in the cerebral cortex receives the projection from VPL and PO cells and perceives mainly the information of mechanical stimuli and partially that of sharp stinging pain.
+This aspect can be seen in the initial phase of Fig.
+On the other hand SIT receives the projection from PO cells more strongly than from the others and increases the firing rate after 250 ms in the same manner that the associated area H of the cerebral cortex is facilitated by the projection from CM-Pf cells.
+In consequence slow burning pain is certainly perceived on these cortical cells.
+6, it is easily supposed that pain sensation is evoked by applying a certain grade of stimulus intensity and high frequency.
+Stimulus intensity Ao = 120, stimulus frequency f = 300 pps and I ms pulsewidth, which is applied at t = 0.
+C fibers that leads to the occurrence of secondary burning pain.
+Particular points of the characteristics differ compared with the former results in that more elevation of firing rates than those of Fig.
+6 can be found in CM-Pf and H cells, evoked through the increasing of C fibers' activity because of the higher input intensity.
+As fibers are also intensely facilitated so that the firing rates of PO and SII cells increase between 50 and 80 ms.
+This suggests that the fast stinging pain and the slow burning pain would be perceived more intensely in the cerebral cortex.
+In contrast the initial firing bursts of VPL and SI cells are rather reduced at 10 - 20 ms because of the lower frequency stimulation in that the firing burst of AA fibers does not so much accumulate and exerts less affect on VPL cells.
+Fig. 8 shows the results of model simulation examined for the different stimulus frequencies f = 50 pps and 100 pps as compared with the results of Fig.
+First, the interesting firing modality of T cells can be seen as follows: the transmission of impulses from A fibers directly facilitate the lamina IV cells and indirectly facilitate T cells through IV cells.
+At the same time, SG and 15 cells inhibit IV and T cells, and in addition, adaptation of A. fibers and the indirect negative feedback of the descending system reduces the activity of T cells.
+Thus, the firing burst of T cells is decreased between 10 and 45 ms as shown in the figures.
+Adaptation effect of A,- fibers can be recognized by observing the firing pattern of VPL cells (a) Fig. 7.
+which receive the intense projection from A. fibers.
+The succeeding impulses transmitted on Ad fibers enhance the activity of T cells at 45 ms and at the same time SG cells are inhibited by 14 cells that results in the relief of inhibition of SG cells to T cells.
+After 100 ms, periodic change of firing rate syncronized with the stimulus interval occurs in T cells and it lasts until 250 ms.
+At 250 ms, the succeeding very few impulses transmitted on C fibers affect on T cells and facilitate their activities.
+The firing pattern of VPL cells seems almost similar to those of A fibers when low stimulus frequency is applied.
+In contrast, PO cells are affected by the firing burst of A. fibers at 60 ms and by C fibers at 260 ms.
+It must be noticed here that fort = 50 pps, the firing rate of PO cells changes with a slight fluctuation of the same periodicity as the stimulus interval Fig. 8.
+However, for f = 100 pps the firing rate of PO cells shows a frequency fluctuation lower than stimulus frequency.
+That is, the frequency demultiplication phenomenon occurs at 40 115 ms and after 250 ms.
+In the figures, the firing patterns of cortical cells are not represented but their activities are enhanced by increasing of the stimulus frequency.
+From the results mentioned above we can recognize that in the case of low stimulus frequency despite relatively high intensity, firing rates of PO and CM-Pf cells are very few and secondary burning pain may not be perceived, but the weak stinging pain or the graded intensity of touch sensation from the different low stimulus frequency may be perceived.
+As a matter of course, the stimulation by grading stimulus intensity gives about the same modality as pain and touch sensation.
+This paper presents a neural network model which simulates the conduction mechanism of pain sensation.
+Similar modalities of firing discharges to those of the model simulation can be found in the physiological literatures: Price et al. , studied the intracellular responses of dorsal horn cells (Rexed's lamina IV-VI cells) of cat to cutaneous and sural nerve A and C fiber stimuli
+Short latency (5 -10Ims), postsynaptic potential, and spike responses were evoked by low-intensity nerve stimulation of single electrical shock.
+Increasing stimulus intensity to excite both A and C nerve fibers elicited both short latency and long latency (> 200 ms) postsynaptic potential sequences and prolonged discharges in the dorsal horn cells.
+Increase in the cell discharge rate with repetitive stimulation supramaximal for A fibers was observed.
+Progressive depolarizations and successive increases in spike discharges were evoked by the repetitive stimulation maximal for C fibers.
+Menetrey et al. also studied extracellular recordings for response properties of dorsal horn cells (lamina I-IV) of rat to nonnoxious and noxious stimuli [3].
+A large number of cells responded with short latency and short duration bursts of activity to low intensities of transcutaneous single electrical stimulation.
+A high percentage of the cells showed an additional late response when the intensity and the duration of the peripheral electrical stimulation were increased.
+In the majority of cases the late response presented two clear components with respective latencies of maximal discharge of approximately 200 and 300 ms.
+Supramaximal stimulation induced a progressive increase in the latencies of the late components of responses which were due to C fiber input.
+Post-stimulus histograms of the spike discharges (firing rates) were very similar to those obtained by Price et al.
+[1], Hillman et al.
+[19], Foreman et al.
+LeBlanc and Gatipon extracellularly recorded the response characteristics of single neurons in the gigantocellular nucleus of medial bulboreticular formation (BRF-GC) of a cat to electrical stimulation.
+This consisted of a supramaximal pulse train at a frequency of 80 Hz which was sufficient to activate small fiber activity in the sural nerve [2].
+With the repetitive electrical stimulation some neurons showed a windup phenomenon characterized by a progressive increase in firing rate and duration of their response.
+A serial tachogram of interspike intervals recorded from some neurons showed a decrease in the interspike intervals (increase in firing rates) and the succeeding periodic fluctuation of firing rates during the application of successive pulse train stimulation.
+Poggio and Mountcastle studied the functional properties of ventrobasal thalamic neurons in unanesthetized monkeys and observed extracellular responses of VPL cells to repetitive electrical stimuli applied on the peripheral receptive field [31].
+Responses of VPL cells followed the stimuli to rates of 100 - 200 Hz with great fidelity.
+At or above these rates, the cells failed to respond to every stimulus.
+The functional relation between the frequency of neuronal discharges and the frequency of stimulation showed a power function the exponent of which was less than one.
+The model however represents the actual neural pathways very simply and therefore has some limitations in showing the whole mechanisms of complex pain generation.
+Some of the points that give rise to discussion include the following.
+First, the model parameters used are determined to simulate analgesia, hyperalgesia, and the other pain modality after the iterative examination of the parameter values.
+Analgesia can be simulated by the deficiency and the excessive decreasing of coupling coefficients or by the excessive elevation of firing thresholds of A6 and C fibers.
+Hyperalgesia can also be simulated by the same abnormality of A,3 fibers [56].
+The parameters such as the firing threshold and coupling coefficient are not unitarily defined as so-called parameters but are one of them.
+The decided parameters are relatively appropriate to simulate the pain mechanism but are unphysiological for the strict representation of the neural properties.
+In our model the conduction velocity and firing threshold of each neural fiber have been assumed to be constant.
+The distribution of the different diameters have been physiologically observed in each class of afferent fiber which in turn correlates closely to the conduction velocity and the firing threshold.
+It could be supposed that a difference of conduction velocities would result in the distribution of central delays of evoked responses, and that the prolonged discharges of spinal cord cells would occur through the successive firing conduction with different velocities through the multisynaptic connection.
+Physiological experiments [12], [55] showed that lamina IV and V cells responding to single stimulus evoked an initial high frequency burst of impulses lasting 25 - 30 ms with short latency (5 - 6 ms) followed by low frequency discharges with a little longer latency of 30 - 40 ms.
+Furthermore a prolonged low frequency discharge lasted several hundred milliseconds following a silent period of 100 - 250 ms.
+When the stimulus intensity was raised to a level to excite C fibers, the cells in lamina IV and V responded with long latency (200 - 475 ms) discharges.
+These discharges often consisted of two or three high frequency bursts of spikes separated by silent periods.
+Low frequency prolonged discharges lasting several hundred milliseconds could also be observed in some neurons responding to C fiber stimulation.
+According to Price [57], stimulus to A fibers evoked a brief latency burst of spikes, about a 50 ms pause and then a low frequency discharge.
+When C fibers were additionally stimulated, high frequency prolonged discharges occurred at latencies greater than 200 ms.
+Our model experiment however could not simulate the prolonged discharges lasting a few hundred milliseconds but only those of about 50 ms.
+The latency period and the duration of initial burst evoked by AA fiber stimulation and those of the secondary burst evoked by As fibers are simulated in good agreement compared with the physiological results as shown in Fig.
+The model realization of the prolonged discharge evoked by C fibers is considered to include the distributions of the conduction velocity and the firing threshold of these fibers in the model.
+In addition there are few reports in the research literature giving specific evidence on the pathway that small fibers (A,, C) ascend in the marginal cells of the dorsal horn (lamina I) and terminate through the medulla in several thalamic regions [58], [59].
+The pain pathway via lamina I responding only to noxious stimuli is omitted in our model.
+The results of model simulation showed the firing characteristics of the central neural cells projected from the specified location x =
+, the proposed neural network model represents only one directional ascending and descending pathway.
+No interactions of the lateral adjacent fields such as lateral inhibition and facilitation in the higher regions than spinal cord have been proposed.
+In spite of the simplified model of the vertically arranged networks, the characteristic of two point discrimination (TPDT) can be sufficiently but not relatively well simulated, which will be presented in a succeeding study.
+For the more precise simulation of TPDT, or of the well-localized sharp stinging first pain and the diffuse localized second burning pain, the model must be reformed by introducing lateral inhibitions and facilitations into the network.
+Laterally an arranged feedback system must also be considered in the model in order to mimic the descending control from the upper brain, which mainly serves the important inhibitory interactions.
+Lateral inhibitions have been observed on the afferent pathways: 1) from the dorsal horn of the spinal cord toward the dorsal column nuclei (DCN), 2) from DCN toward the ventrobasal nuclear complex and 3) in the somatic sensory area SI and SII.
+However it is even now unknown what interactions are formed on the ascending and descending pathways and how those are formed.
+Physiological and anatomical investigations are underway for the analytical elucidation of the spatial information processing mechanism of somatic sensations such as TPDT, phantom sensation, and phantom limb pain.
+Pain impulse is evoked by any given noxious stimulation and transmitted through the complex afferent pathways into the upper brain.
+Some chemical substances are involved in the pain sensation generation process.
+One type of chemical substance is pain inducing such as Bradykinin or Histamine through chemical response to noxious stimulation.
+Pain control substances such as Enkephalin or Endorphin suppress the transmission of pain information on the synapses of afferent pathways.
+These chemical reactions are very important in the pain mechanisms especially those related to inflammation, however the model realization of that chemical process has not been carried out in this paper.
+A control model of the chemical reactions will also be required for the precise representation of pain modality.
+From the results of computer simulation it could be concluded that the proposed neural network model would be appropriate and useful for the quantitative analysis of pain mechanisms.
+The model mimics the pain modality quite well, and the results are in good agreement with some of physiological results.
+Further discussions concerned with the response characteristics of the neural cells which can be described by Steven's power law and with the so-called pain threshold characteristic will be given in a succeeding paper.
+9* Threshold of neural unit which varies with adaptation effect.

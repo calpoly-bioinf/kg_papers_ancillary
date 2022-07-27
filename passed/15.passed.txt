@@ -1,0 +1,178 @@
+The first test which any theory of pain must pass is that it must be able to explain the phenomena observed in acute pain in humans.
+This criterion is used to test the major theory of pain at present, the gate control theory of Melzack & Wall (1965, 1982).
+The theory is explicit enough to be cast in mathematical terms, and the mathematical model is shown to explain the observations considered.
+It also points up a common misconception on the consequences of the theory, and thus demolishes an argument which has been used against it.
+A hypothesis of the origin of rhythmic pain is then made, and consequent testable predictions given.
+This is the first time that the gate control theory has been used to explain any quality of pain.
+It has important consequences for the treatment of such pain.
+Finally, the applicability of the gate control theory as an explanation for chronic pain is discussed.
+In this section we give a short review of neurophysiological mechanisms which cause pain to be experienced and inhibited.
+We then consider certain observations which a satisfactory theory of pain must account for, and discuss various theories in the light of these.
+In section 2 we make a mathematical model for the only theory which is both explicit enough to be written in mathematical terms and which gives reasonable explanations for the observations.
+We analyse this model in an appendix and interpret the results from a biological point of view in section 3.
+In the final section of the paper we discuss the results obtained.
+In the skin, muscles, joints and some viscera are receptors attached to nerve fibres.
+We shall concentrate on cutaneous sensation for the purposes of this paper.
+Stimula- tion of the receptors causes nerve impulses to travel along these fibres to three systems in the spinal cord (see, for example, Willis, 1985; Ottoson, 1983).
+The first of these is the substantia gelatinosa (SG) in the dorsal horns.
+The nerve cells here are small and connect with each other by short fibres and the longer fibres of Lissauer's tract, and with other cells deeper in the dorsal horns.
+Cells deep in the dorsal horns are also stimulated directly by nerve impulses from the receptor fibre units of the skin, and there are cells in this area whose axons form part of the ascending spino-thalamic tract, which connects with lower centres in the brain and which is an integral part of the action system designed to deal with pain.
+The third system in the spinal cord reached by nerve impulses from the skin is in the dorsal column, the fibres of which project to the cortex of the brain.
+We shall be concerned with three kinds of nerve fibres from the skin to the spinal cord.
+First are the C fibres, which are unmyelinated (i. e. without insulation from a 91 0022-5193/89/050091 + 15 $03.
+25-1-25 m/sec.
+Second are the A-delta fibres, which are thinly myelinated, and conduct impulses much more quickly, at around 6-30 m/sec.
+Third are the A-beta fibres, which are heavily myelinated, and conduct more quickly still, at around 30-100 m/sec.
+C and A-delta fibres are of small diameter (0.
+25-1-5 and 1-5 microns respectively), whereas A-beta fibres are large (5-15 microns).
+The small (C and A-delta) fibres connect with the SG and cells deeper in the dorsal horns whereas the large (A-beta) fibres connect with these and with the dorsal column as well.
+Each of these fibres is attached to a receptor in the skin, which may be a Meissner's corpuscle, a Pacinian corpuscle, a Ruffini or Krause end-organ or, for the great majority (around 60-70%), and most important for the study of pain, a free nerve ending.
+Any theory of pain must be able to account for the following observations: (i) Increased stimulation of the small nerve fibres of the skin usually increases pain (e. g. van Hees & Gybels, 1972; Hallin & Torebj~Srk, 1973).
+(ii) Increased stimulation of the large nerve fibres may increase pain transitorily, but in the longer term may relieve it (e. g. Wall & Sweet, 1967; Chapman et aL, 1976).
+(This is the basis for rubbing the skin where it has been injured in order to relieve pain. )
+(iii) Pain relief may be achieved by electrical stimulation of the grey matter of the midbrain (
+(iv) It is sometimes the case that injuries which would normally cause great pain cause little or no pain at all, or that the onset of pain is delayed (e. g. battle injuries (Beecher, 1959) or injuries requiring treatment in an emergency clinic (Melzack et aL, 1982).
+(v) It is sometimes the case that anticipation of pain is sufficient to raise the level of anxiety and thereby the intensity of perceived pain (e. g. Hall & Stride, 1954).
+It is reasonable to ask why we have chosen these observations to address rather than any others.
+We used the following criteria: (a) the observations were on human subjects, and (b) only effects which did not involve long term changes in the nervous system were considered.
+The reason for this is that in order to test the theory of pain we would have to make assumptions about these changes, and we would be unable to tell whether any negative results were due to errors in these assumptions or in the theory itself.
+It follows that we have not considered any observations on the development of chronic pain states or on neuropathological conditions.
+For a more complete review see Meizack & Wall (1965, 1982), Nathan (1976) and Willis & Coggeshall (1978).
+The first was specificity theory (von Frey, 1894), which states that pain is produced by stimulating pain receptors thus causing nerve impulses to follow pain-specific pathways to a pain centre in the brain.
+The pain receptors are the free nerve endings on C and A-delta fibres.
+Specificity theory in its simplest form thus proposes that pain felt is a direct consequence of the number of pain fibres being stimulated, and therefore it is difficult to explain observations (ii), and especially (iii) to (v), on this basis.
+The second theory of pain was pattern theory (Goldscheider, 1894; Weddell, 1955; Sinclair, 1955), which recognises that the spatio-temporal pattern of the impulses from the skin are important.
+The impulses reaching the spinal cord are thus a coded message which is decoded by the central nervous system.
+In its simplest form this theory fails to take into account the physiological specialisation of the peripheral nerve fibres, but its greatest failing from our point of view is that it gives no clue as to how the decoding mechanism works.
+Other theories of pain had elements of both specificity theory and pattern theory.
+Head (1920), followed by Foerster (1927), Lewis (1942), Bishop (1959) and Noor- denbos (1959), proposed that nociceptive impulses are carried in a slowly conducting system of small fibres and that there is a specific rapidly conducting system of large fibres which inhibits synaptic transmission in this system.
+This goes some way towards accounting for observation (ii) but still proposes a direct relationship between a stimulus applied at a certain time and the sensation felt at that time, so that there are still difficulties in accounting for observations (iii) to (v).
+In 1965 Melzack & Wall published their gate control theory of pain, which follows on from these so-called sensory interaction theories.
+The differences between their theory and previous ones were (a) they proposed an explicit mechanism for the inhibition of the slowly conducting nociceptive system by the fast conducting one, and (b) they proposed that descending controls from the brain could also moderate the passage of nociceptive signals.
+The explicit mechanism attracted a great deal of criticism on physiological grounds (see, for example, the review by Nathan, 1976), some of which was dealt with in a major revision of the theory by Melzack & Wall in 1982.
+There is no doubt that the theory is a gross over-simplification of the actual mechanism, but nevertheless provides a useful starting point and, so far, has not been replaced.
+The inclusion of descending controls makes it possible to account for observations (iii) to (v) by allowing that the brain can consciously or automati- cally inhibit or promote transmission of nociceptive impulses up the spinal cord, and thus reduce or augment the pain being experienced.
+The gate control theory of pain is easiest to explain using a diagram.
+It was stated above that there are in the area of the dorsal horns of the spinal cord at deeper levels than the substantia gelantinosa (SG), cells which receive input from the SG, cells which receive input direct from the skin, and cells which transmit output to the action system.
+It is proposed in the gate control theory of pain that the cells in this region which transmit to the action system are the same as the cells which receive input from the skin and the SG, the so-called central transmission (T) cells.
+The gate control system is made up of these cells and the cells of the SG.
+The output from the system is via the T-cells only, and determines the degree of pain felt.
+The inputs to the system come from large and small afferent fibres (from the skin, for example) and from the brain.
+The small afferent nerve fibres excite the T-cells directly (raising their potential towards the threshold where they fire) and also excite cells in the SG which excite the T-cells.
+This accounts for observation (i), that increased stimulation of the small fibres in the skin increases pain.
+The large afferent nerve fibres excite the T-cells directly but also excite cells in the SG which inhibit the T-cells (lowering their potential from their firing threshold).
+The gate control theory of pain (adapted from Melzack & Wall (1982), who do not specify the site of action of the cognitive control).
+The cognitive control may be either excitatory or inhibitory.
+The impulse frequencies x in the various pathways of the system are also shown.
+fibres first causes an increase in the rate of firing of the T-cells (due to the direct excitation) and then a decrease (due to the inhibitive effect from the SG).
+Thus pain would increase transitorily and then decrease, in accordance with observation (ii).
+The effect of the input to the gate control system from the brain is inhibitory or excitatory, and acts either directly on the T-cells or on the inhibitory SG cells, or both, but the physiological evidence seems to favour action via the superficial layers of the dorsal horn (see, for example, Fields & Basbaum, 1984).
+For this reason we take the action to be via the SG, but the results would be substantially unaltered if we took it to be via the T-cells.
+The input to the brain comes both from the T-cells and directly from the large afferent fibres of the skin via the dorsal column.
+The input from the T-cells feeds into a centre in the mid-brain which automatically activates a descending inhibitory control, which is assumed to act through the inhibitory SG cells.
+Artificial stimulation of the correct area of the mid-brain would have a similar effect, and this could explain observation (iii).
+The input from the large afferent fibres feeds into a centre in the higher brain which activates a cognitive control.
+We shall assume that this also acts through the inhibitory SG cells.
+It may be either inhibitory (by exciting these cells) or excitatory (by inhibiting them), depending on psychological factors.
+This could explain observations (iv) and (v).
+The mathematical model is best explained by referring again to Fig.
+1, which shows the firing frequencing x in each of the pathways due to a firing frequency xs in the small fibres and x~ in the large fibres of the relevant area of skin.
+We shall assume that the frequency of the outputs from the cognitive control and the descending inhibitory control are strictly monotone increasing functions of the inputs, that is x~ = ~(x,), xc = ~(x,), (1) where q~ and t~ are increasing functions satisfying ~(0)= 0, ~(0)= 0.
+We shall consider the inputs and outputs to one particular T-cell and assume that neighbouring T-cells are similar.
+We shall also assume, for simplicity in the exposition only, that each T-cell is stimulated by one large and one small afferent nerve fibre from the skin and one inhibitory and one excitatory SG cell.
+Our modelling is in the spirit of Wilson & Cowan (1972).
+We shall thus work with the slow potentials I/, of the T-cell, V~ of the inhibitory and Ve of the excitatory SG cell.
+The frequencies x,, x~ and xe at which these cells fire are functions of the slow potentials, x, = f,(v,), x,=f,(v~), Xe = f,(V~).
+The exact form of the functions f could be modelled, but all we shall require is that they are of the form shown in Fig.
+The poten- tials V of the cells depend on the frequencies of impulses arriving at their dendrites from various sources, and on the dendrites and the synaptic junctions themselves, whose properties we shall assume to be constant over the time scales which we are considering.
+The effect of an input frequency xj to an excitatory or inhibitory synapse of a cell of potential Vk will be to raise it by qbjk, where ¢Pjk = c~jk f' hjk(t--r)g[xi('r)] dr (3) d-
+c~ (an der Heiden, 1980), where ark = 1 for an excitatory and -1 for an inhibitory synapse, hjk is a positive monotone decreasing function and gjk is a bounded strictly monotone increasing function satisfying gjk(O)----O. We shall take the simplest form for h~k, which represents a simple RC-network with ~'k the time constant of the membrane.
+The total effect of inputs to cell k gives where Vko is the resting potential of the cell.
+This assumes that the system is linear and is a good approximation at least for small variations in the variables.
+The assumption may be relaxed without qualitatively affecting the results.
+Differentiating eqn (5) using eqns (3) and (4) and rearranging where the sum is over all inputs j to the cell k.
+For our system we obtain the three equations r,~ =
+(8) riV i =
+(9) r,12, = -( V, - V,o) + gs,(x,) + g,,(x,) + g,,[f,( V~)J - g,,[f,( V~)] These are three equations for the three unknown potentials V~, V~ and V, in terms of the known inputs x, and xt, and represent our mathematical model of the gate control theory of pain.
+The model is analysed in the Appendix.
+In this section we shall summarise the results of that analysis and interpret them from the biological point of view.
+The first result of biological interest is lemma 5.
+This says that if steady pain is being felt and the stimulation of small fibres is increased slightly without any other changes occurring, then after a short time the pain felt will still be steady and will be at a higher intensity.
+This accounts for observation (i) of the introduction.
+Second, lemma 6 states that if no cognitive control is being exerted, steady pain is being felt and the stimulation of large fibres is increased slightly without any other changes occurring, then after a short time the pain felt will still be steady but may be at a higher or a lower intensity.
+In the second case it may increase transitorily before declining to the lower level.
+Which of these occurs depends on the details of the model and the levels of stimulation of large and small fibres being considered.
+The gate control theory can therefore account for various consequences of an increase in the stimulation of the large fibres.
+The possibility of a resulting transitory increase followed by a decrease in pain is interesting in view of observation (ii) of the introduction.
+It is also interesting that Nathan & Rudge (1974) found that stimulation of large fibres sometimes does and sometimes does not reduce pain caused by small fibres, and used this as an argument against the gate control theory.
+We have shown here that the theory can easily cope with such findings, but clearly more work needs to be done on the effects of large fibre stimulation on pain to elucidate the details of the phenomenon.
+Third, lemma 7 says that increasing the input from the midbrain (the descending inhibitory control) reduces the steady state value of the T-cell potentials.
+On the assumption that the system is at a steady state this implies that any pain felt is reduced, and this could account for observation (iii) of the introduction.
+Fourth, lemma 8 says that switching on an inhibitory (or excitatory) cognitive control reduces (or increases) the steady state T-cell potentials.
+Again assuming that the system is at a steady state this implies that any pain felt is reduced (or increased), and this could account for observations (iv) and (v) of the introduction.
+The mathematical analysis raises the intriguing possibility of oscillatory solutions of the equations (see the remark after lemma 4).
+If such a solution occurs, then the potential 11', of the T-cells oscillates, so that any pain increases and decreases rhythmically.
+Could this be the origin of throbbing and other rhythmic pain?
+If so, the model predicts that, assuming there is no change in the descending controls, the transition from steady pain to rhythmic pain can only be made by a sudden change in the firing frequencies in the large or small fibres.
+It would be interesting if this prediction could be tested experimentally.
+The mathematical model of the gate control theory of pain proposed in this paper (and hence the gate control theory itself) can account for all the observations on acute pain in humans which are presented in the introduction.
+One of the purposes of setting up a mathematical model was to demonstrate this (if possible).
+However there are other purposes which are just as, if not more, important.
+First, a mathematical model may point up misconceptions on the consequences of the gate control theory which have arisen.
+This seems to be the case on the question of the effects of stimulation of large fibres when pain is present, where it has been assumed that the gate control theory predicts that pair will ultimately always be reduced.
+In fact the theory allows either augmentation or reduction (possibly preceded by transient augmentation), depending on the details of the model and the initial firing frequencies in the large and small fibres.
+This demolishes one of the arguments against the theory but of course raises many questions which need to be investigated experimentally.
+The reason for the equivocal findings is that there are two opposing effects at work.
+One is the direct stimulation of T-cells by large afferent fibres, which tends to raise T-cell potential, and hence to increase pain.
+The second is stimulation of the inhibitory SG cells, which tends indirectly to lower T-cell potential, and hence to decrease pain, and which may be a slower effect.
+The final result depends on the relative magnitudes of these two effects and this may depend on the initial potentials in the various cells of the system.
+Second, the analysis of a mathematical model may suggest explanations for phenomena previously unexplained by the gate control theory.
+Thus we have suggested that rhythmic pain may be the result of an oscillation of potentials in T-cells and inhibitory SG cells.
+The proposed mechanism is as follows: (a) High T-cell potentials imply a high frequency of signals to the brain, activating a descending control mechanism.
+This increases the potential in the inhibitory SG cells, resulting in an increased firing rate in these cells.
+This lowers the T-cell potentials, thus reducing the frequency of signals to the brain and deactivating the descending control.
+(d) Finally this allows the inhibitory SG potential to fall and therefore the T-cell potential to rise.
+This cycle is then repeated, and results in rhythmic pain as the T-cell potential and thus the T-cell firing rate rises and falls.
+It must be emphasised that we are concerned here only with the fact that the T-cell potential, and hence the pain, is oscillating periodically.
+Depending on the frequency of these oscillations and the magnitude of the potentials, such pain could be characterised as flickering, quivering, pulsing, throbbing, beating, or pounding.
+These words describing temporal qualities of pain are found in the McGill Pain Questionnaire (Melzack, 1975).
+Other sensory aspects of the pain and its affective and evaluative properties are not considered, and indeed it is a shortcoming of the gate control theory that it does not seem to be able to explain such differences in pain.
+However the ability to explain these temporal qualities of pain is a property of the gate control theory which has not been recognised before, and which is extremely important in view of the number of patients suffering from clinical pain syndromes who experience such l~ain.
+In a study by Dubuisson & Melzack (1976), 35 out of 58 patients suffering from arthritic pain, disc disease pain, toothache, cancer pain, phantom limb pain and post-herpetic pain reported rhythmicity, a proportion of over 60%.
+However our model was set up as a model of acute pain whereas most of these patients were suffering from chronic pain.
+We return to this point below.
+Third, a mathematical model may make predictions which can be tested experi- mentally.
+Here we state that, assuming descending controls do not change, rhythmic pain cannot arise from steady pain by a slow increase in firing frequencies in large and small fibres; it must occur as a result of sudden changes in the firing frequencies.
+The fourth and most important reason for setting up a mathematical model of acute pain is to provide an explanation for or at least a basis for extension to theories of neuropathies and chronic pain, which are of course clinically far more important than acute pain.
+In certain cases chronic pain persists long after the injury producing it has healed.
+First, it could be that chronic pain is associated with plastic changes in the nervous system.
+Second, it could be that psychological factors result in the cognitive control being more excitatory (or less inhibitory) than would otherwise be the case.
+Third, it could be that one input into the control system (i. e. one value for the firing frequencies in each of the large and the small fibres) could result in more than one possible output from the T-cells, depending on the history of the system.
+Thus an input which before injury had resulted in no pain could after injury result in considerable pain.
+Mathematically this corresponds to two solutions of the differential equations, and we have shown that the only way this can happen in our model is if one of the solutions is oscillatory, reminding us of the reverberatory circuits put forward as a theory of chronic pain by Livingston (1943).
+In this case it can be shown that the T-cell potential is sometimes higher and sometimes lower than in the steady state, so that if the steady state is a painless state then the oscillatory state must be painless at least in part of its cycle, but could result in pain appearing and disappearing periodically.
+Such pain could be treated by a temporary local anaesthetic.
+The T-cell potential would then be reset from the oscillatory solution to zero, a steady solution of the differential equations, while the anaesthetic was working, and would remain in a painless steady state rather than the painful oscillatory state when the anaesthetic wore off.
+It is often the case in clinical pain syndromes that temporary anaesthetisa- tion produces prolonged relief of pain, e. g. Livingston (1943) and Bonica (1984).
+A question which arises from our analysis is whether this is more likely to happen when the pain is rhythmic.
+If so, our analysis leading directly from the gate control theory provides a possible explanation for the effectiveness of the treatment.
+This kind of mechanism has been hinted at before.
+To quote from Bonica (1984), "it has been suggested that to block off sensory input for several hours stops the self- sustaining activity of the neuron pools in the neuraxis which may be responsible for some chronic pain states".
+Treatment by temporary local anaesthetic may be advantageous for any rhythmic pain, even when the pain does not appear and disappear periodically.
+However, in this case we would expect the treatment to result in steady pain more intense than that at the low point of the cycle but less intense than at the high point.
+This may be more bearable than the original pain.
+We illustrate this diagrammatically in Fig. 2.
+However, chronic pain is not always rhythmic, and therefore this mechanism cannot be the only way it can be produced.
+It seems certain that both psychological factors and plasticity of the nervous system have a role to play.
+Psychological factors have been incorporated into our model but plastic changes have not.
+This would involve progressive changes in some of the parameters of the system, possibly to simulate the unmasking of normally ineffective synapses in the spinal cord in the event of damage (Wall, 1984).
+Clearly more work needs to be done in this important area.
+(~) indicates the time course of the T-cell potential (corresponding roughly to pain intensity), when the pain is rhythmic, and ( ) the potential after a temporary local anaesthetic has worn off.
+(- - -) represent possible levels above which pain is felt.
+In (a), pain is relieved completely, whereas in (b) its intensity is reduced from its maximum previous intensity, possibly making it easier to bear.
+Let us therefore summarise our main results.
+First, the gate control theory can explain many observations on acute pain.
+It does not imply that increased stimulation of the large fibres of the skin always results in a reduction in pain.
+It can explain rhythmicity in pain, and our analysis suggests a possible experiment to test this explanation.
+It also suggests that a possible treatment to alleviate or cure rhythmic pain is a temporary local anaesthetic.
+Finally, we point out that to obtain a theory of chronic pain the gate control theory will have to be augmented by a theory describing plastic changes in the nervous system.

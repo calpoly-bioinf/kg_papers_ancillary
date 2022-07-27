@@ -1,0 +1,161 @@
+Abstract: Humans vary in oral pain tolerance.
+Our earlier studies noted that the responses of subjects show 1 of 3 qualitative response patterns to a single oral capsaicin concentration, which we termed a tonic pattern (level detection response), a phasic pattern (change detection response), and an integrator pattern (cumulative irritation) response.
+These patterns were modeled quantitatively as the sum of 3 underlying processes.
+Two time-varying capsaicin stimulus proﬁles were designed from the quantitative model.
+In the ascending step paradigm, 30 ppm capsaicin was presented to 42 subjects for 15 minutes, followed immediately and without explanation by 300 ppm capsaicin for 25 minutes.
+In the descending step paradigm, 300 ppm capsaicin was presented to 36 other subjects for 24 minutes, followed by 10 ppm for 22 minutes.
+Subjective burn was rated at 1 minute and then at 3-minute intervals throughout the presentation.
+Fuzzy cluster analysis identiﬁed 3 distinct response phenotypes in each paradigm, corresponding to level detection, change detection, and cumulative irritation response patterns identiﬁed previously.
+Discriminant functions permitted classiﬁcation of these phenotypes from the response patterns.
+Thus, these paradigms provide the ﬁrst quantitative phenotypic description of distinct oral pain responses to a common irritant, capsaicin.
+Perspective: This study examined the time-dependent behavior of pain produced by oral application of capsaicin.
+Three distinct temporal response phenotypes were identiﬁed objectively: level detection, change detection, and cumulative irritation detection.
+These time-dependent analyses provide a new dimension to understanding individual differences in pain sensation in clinical settings.
+t is well recognized that marked individual differences in pain sensation and pain tolerance reﬂect inﬂuences of biologic, social, and cultural determinants.
+15 It is unclear whether these differences reﬂect random variations about a mean behavior or distinct response phenotypes for painful stimulation.
+In previous studies13,14 we noted 3 systematic patterns of human psychophysical responses to a constant oral capsaicin stimulus, which we termed a tonic pattern (level detection response), a phasic pattern (change detection response), or a rising pattern (cumulative irritation response).
+We were able to describe these patterns by a mechanistic model13 that represents individual responses to capsaicin as a sum of 3 parallel processes (Fig 1).
+Each process corresponds to 1 of the 3 temporal patterns just described.
+The stimulusresponse relationship for each process appears to follow a distinct power function.
+This model is also able to predict temporal interactions termed sensitization, desensitization, and cross adaptation.
+The model is also useful for designing time-varying stimuli to test whether our previous observations reﬂect different phenotypic categories of subjects’ oral pain responses.
+The model assumes that the response to 2 simultaneous stimuli is the sum of the responses to the individual stimuli.
+On the basis of individual differences in responses to single capsaicin doses,13,14 we predicted that successive exposure to 2 concentrations of capsaicin would also distinguish 3 response phenotypes.
+The durations and capsaicin concentrations for stimuli were based on these modeled responses.
+Here we use fuzzy cluster analysis and discriminant analysis to identify 3 distinct psychophysical response phenotypes in 2 new stimulus paradigms: a double step increase in stimulus intensity and a step decrease from a high to a low intensity.
+These results yield a new method of classifying human pain responses by temporal pattern, rather than threshold or magnitude of response.
+Subjects Seventy-eight undergraduate students participated in the experiment for course credit.
+Forty-two subjects participated in the ascending concentration step experi Received October 13, 2004;
+E-mail: cbalaban@pitt.
+346 ment; 36 subjects participated in the descending concentration step experiment.
+The research protocol was reviewed and approved by the University of Pittsburgh Institutional Review Board, and informed consent was obtained from each subject.
+Capsaicin Stimuli Capsaicin (Sigma, St Louis, Mo; 98%) was dissolved in 95% ethyl alcohol to 6000 ppm.
+This stock solution was diluted in water to the ﬁnal concentration.
+All solutions were stored at �10°C.
+Twenty-ﬁve microliters of the solution was pipetted onto 1.
+The ﬁlter papers were wetted with 50 �L of water just before being placed on the tongue.
+Subjects rated the burning sensation elicited by a capsaicin stimulus in a single session.
+For the step-up experiment, 30 ppm capsaicin was applied to the tongue for 15 minutes, followed immediately and without explanation by 300 ppm capsaicin for 25 minutes.
+For the step-down experiment, 300 ppm capsaicin was applied to the tongue for 24 minutes, followed by 10 ppm for 22 minutes.
+Protocol Standard, nonmodulus, magnitude estimation instructions were read to the subjects, and any questions were answered.
+Because it assesses a temporal proﬁle, free magnitude estimation is appropriate to display properties such as an evolving integrator response.
+Subjects were given practice judging the distance between the experimenter’s hands.
+They wrote their responses to the capsaicin on index cards, which they turned over after each trial.
+Filter papers were laid out in a matrix array before the experiment to prevent the subject from surmising that all stimuli were the same.
+The stimuli were placed on the end of the outstretched tongue by means of forceps and left for 1 minute.
+The subjects gently held the ﬁlter paper in place with a tongue depressor.
+They were asked to keep the tongue extended between the closed lips for the duration of the session, but they were permitted to retract the tongue and close the mouth brieﬂy as needed when the ﬁlter papers were changed every minute.
+At the end of the ﬁrst 1-minute interval of stimulation and every third minute thereafter, subjects were asked to rate the burning sensation they felt at that moment.
+A computer beeped to signal the replacement of the ﬁlter paper and the rating of the stimuli.
+Data Transformation Data were transformed by multiplying each response by a constant so that each subject’s mean response became 100.
+This was done so that each subject would make an equal contribution to the average data.
+Note that this transformation obscures differences between subjects in overall response to capsaicin.
+Fuzzy C-means cluster analysis was performed in MATLAB (MathWorks, Natick, Mass) by using the “fcm.
+Fuzzy C-means cluster analysis is a method for partitioning a data set into a speciﬁed number of clusters, on the basis of an iterative minimization of the within groups sum of square error for the selected partition.
+In contrast to classic cluster analysis, which forces each observation into a single cluster, fuzzy cluster analysis generates a membership function matrix (values ranging from 0 to 1) that speciﬁes the grade of membership of each observation in each cluster and an objective function specifying the location of the center of each Figure 1.
+The transfer function for the model for psychophysical responses to capsaicin is shown in block diagram form.
+The responses are modeled as a sum of 3 parallel processes: a tonic process with gain a, a phasic process with gain b, and an integrator process with gain c.
+The Laplace representations of each transfer function are shown in the boxes associated with each process.
+Because the sum of the membership matrix entries for each observation is 1, the membership matrix entries are analogous to the likelihood of membership in each cluster.
+The theory and applications of these methods are described in detail in the statistics literature.
+Discriminant analysis was performed with SYSTAT 10.
+The model has 3 free parameters: tonic gain, phasic gain, and integrator process gain.
+The 3 time constants and relative response magnitudes to the 2 concentrations of capsaicin were ﬁxed on the basis of previous studies.
+The input to the model is ﬁrst transformed to reﬂect the exponential relationship between stimulus concentration and normalized burn sensation for each process.
+For the ascending step stimuli (30 to 300 ppm), the tonic input was simulated as a constant step of 48.
+The phasic input (which saturates at 100 ppm) was simulated as an initial step of 43. 6, followed by a step to 98. 8, whereas the input to the integrator was set as a step to 15. 8, followed by a step to 63.
+For the descending step stimuli (300 to 10 ppm), the tonic input was simulated as a constant step of 91.
+The phasic input (which saturates at 100 ppm) was simulated as an initial step of 98. 8, followed by a step to 19. 8, whereas the input to the integrator was set as a step to 63.
+The transfer functions of the individual processes (including the time constants) are identical to the model in our previous publications.
+As in our previous studies, the model was simulated in MATLAB for least squares estimation of the gain of each process by using “leastsq.
+The group median response to the ascending step showed 2 distinct limbs (Fig 2).
+During application of the initial 30-ppm stimulus, the response rose with a roughly exponential time course to approximately 60 arbitrary units.
+Application of the 300-ppm stimulus produced a second, roughly exponential rise to approximately 150 arbitrary units at the conclusion of the trial.
+The median response to the descending step stimulus proﬁle (Fig 2) rose to a plateau at 150 arbitrary units during application of the initial 300-ppm stimulus, followed by a roughly exponential fall to 0 during application of the 10-ppm stimulus.
+The behavior of the integrator response has not been tested for a large decrease in capsaicin concentration.
+One possibility is that the response continues to integrate, but at a rate dictated by the reduced stimulus.
+A second possibility, however, is that the integrator re Figure 2.
+The ﬁlled circles represent the median group response at each time point.
+The solid line displays the ﬁt of a single model to the responses of each group.
+The gains in the inset are a least squares estimate of the parameters a (tonic gain), b (phasic gain), and c (integrator gain) from the model, shown schematically in Fig 1 and described in Methods.
+sponse could “discharge” on the precipitous reduction of irritant concentration.
+The model was ﬁrst ﬁtted to the data from the descending step experiment to choose between 2 versions of the integrator process.
+The ﬁrst version assumed that the integrator component would continue to increase when the stimulus was decreased because of continued integration of the lower intensity.
+The second version assumed that the integrator would discharge at the drop in concentration with the same rate with which it had charged.
+The active integrator discharge was implemented by adding an integrator response to a negative step of the same magnitude as the concentration drop.
+The discharging version yielded a better ﬁt, particularly of the second (lower) concentration portion of the data.
+Next, the model was ﬁt simultaneously to the median data from both experiments, yielding a single set of parameters that maximized the ﬁt to the 2 sets of data.
+The group median responses for the 2 experiments were ﬁtted well by a weighted sum of tonic (gain � 0. 55), phasic (gain � 1. 70), and integrator (gain � 0. 66) components (Fig 2).
+Consistent with our previous observations, objective statistical methods identiﬁed 3 different temporal response proﬁles that characterize groups of subjects.
+Fuzzy C-means cluster analysis4 was performed on square root transformed responses of individual subjects to identify heterogeneous underlying response patterns.
+These analyses were done separately for the 2 experiments.
+Subjects were characterized as belonging to a single cluster (group response pattern) if their membership set value was greater than 0.
+Subjects with approximately equal membership values for 2 clusters were not used for characterizing the properties of any cluster.
+Three distinct response patterns were identiﬁed for the ascending capsaicin steps.
+Thirteen of the 42 subjects fell into Cluster 1, which might be described as a tonic response proﬁle (Fig 3).
+The responses of these subjects showed a simple exponential rise to an initial plateau in the range of 50 to 100 arbitrary units during application of the initial 30-ppm stimulus, followed by a similar rise to a plateau of 120 to 200 arbitrary units.
+By contrast, the 12 subjects in Cluster 2 showed a more phasic response pattern (Fig 4) that rose within 5 minutes to a median plateau of approximately 60 arbitrary units, followed by a jump to a slowly increasing response pattern after application of the second capsaicin concentration.
+Finally, the 9 subjects in Cluster 3 showed a “rising pattern” observed in our previous studies.
+13,14 These responses showed a simple exponential rise to the ﬁrst stimulus, followed by a rising response during application of the higher stimulus concentration (Fig 5).
+The remaining 8 subjects showed patterns that were almost equally likely Figure 3.
+The upper panel shows the median burn sensation that characterizes the pattern termed Cluster 1 (13 subjects) from the group of subjects given ascending capsaicin stimulus concentrations.
+The lower panel shows the median burn sensation from the corresponding cluster of subjects (n � 13) from the group exposed to descending capsaicin stimulus concentrations.
+The curves on each panel show the ﬁt of a model with a single set of parameters to the responses.
+The least squares estimates of the 3 gains in the model are listed in the ﬁgure.
+The responses to the descending capsaicin steps also showed 3 distinct patterns.
+The median response for the 13 subjects in Cluster 1 (Fig 3) was virtually identical to the median response for all subjects (Fig 2).
+The response rose rapidly to a plateau during application of 300 ppm capsaicin.
+When the stimulus concentration dropped to 10 ppm, the response declined within about 12 minutes to a plateau between 0 and 50 arbitrary units.
+The 7 subjects in Cluster 2 (Fig 4) showed a response that rose rapidly to a peak, followed by a ﬂat to declining response during the 300-ppm stimulation.
+When the stimulus concentration dropped to 10 ppm, the response declined precipitously, reaching 0 by the end of the session in all subjects.
+The 8 subjects in Cluster 3 (Fig 5) showed a slow rise during the 25-minute exposure to 300 ppm capsaicin, followed by a slow decline during exposure to 10 ppm capsaicin.
+Among the 8 individuals with intermediate response patterns to descending steps, 7 showed a pattern intermediate between clusters 1 and 2, and 1 subject showed a pattern intermediate between clusters 2 and 3.
+To test the hypothesis that the clusters from both experiments constitute the same 3 subject types with distinct response characteristics, a least squares regression ﬁt was performed to obtain a single set of parameters for a model ﬁt to the response to both the ascending con centration subjects and descending concentration subjects.
+Responses of Cluster 1 subjects from both experiments (Fig 3) were described by a single model with a tonic gain of 0.
+68, a phasic gain of 1. 65, and an integrator gain of 0. 61, which behaves as a level detector.
+Responses of Cluster 2 subjects from both experiments (Fig 4) were described by a single model with a phasic gain of 3. 72 and an integrator gain of 0. 28, which behaves in a manner that is highly sensitive to changes in concentration.
+Responses of Cluster 3 subjects from both experiments (Fig 5) were attributed to a sum of a small tonic gain (0. 15), a moderate phasic gain (0. 65), and a large integrator gain (1. 90), which reﬂects high sensitivity to cumulative irritation.
+Thus, these ﬁndings support our earlier suggestion that there are 3 phenotypic patterns for subjective burning sensations elicited by oral irritation by capsaicin.
+It is noteworthy that this classiﬁcation approach ignores individual differences in perceived intensity.
+This contrasts sharply with all previous studies, because they are based on sensitivity and intensity, not the time course.
+Within each 2-step stimulus paradigm, the subject’s response phenotype could be identiﬁed by a discriminant analysis of the responses across time points.
+This approach yielded 2 canonical variables for classifying subject responses from each experimental paradigm (Tables 1 and 2).
+These factor scores yielded 100% correct classi Figure 4.
+The upper panel shows the median burn sensation that characterizes the pattern termed Cluster 2 (n � 12 subjects) from the group of subjects given ascending capsaicin stimulus concentrations.
+The lower panel shows the median burn sensation from the corresponding cluster of subjects (n � 7) from the group exposed to descending capsaicin stimulus concentrations.
+The curves on each panel show the ﬁt of a model with a single set of parameters to the responses.
+The least squares estimates of the 3 gains in the model are listed in the ﬁgure.
+ﬁcation of the subjects that were classiﬁed by the Cmeans fuzzy cluster analysis (Fig 6).
+Among subjects who could not be classiﬁed unambiguously by the C-means analysis, 4 of 8 ascending step responses were classiﬁed as a response phenotype by the discriminant function, whereas only 1 of 8 was classiﬁed for the descending responses; these discriminant classiﬁcations were consistent with the membership set values from fuzzy C-means analysis.
+Our ﬁndings show that time-dependent behavior adds a new dimension to classiﬁcation of oral sensitivity to chemical stimuli.
+All previous classiﬁcation schemata for individual difference in response to chemical stimuli (whether tastants or irritants) have been based on instantaneous measures of magnitude or threshold.
+Because pain responses, like all biologic processes, take place over time, instantaneous measures of magnitude face the problem of choice of the appropriate moment.
+Our approach, by contrast, permits an objective classiﬁcation based on the temporal response proﬁle of each subject to a single experimental exposure, independent of the absolute magnitude or choice of a single moment.
+The labeled magnitude scale is a visual analog scale anchored by verbal descriptors and having ratio-level properties.
+9 Bartoshuk3 has modiﬁed the upper limit to read, “strongest imaginable sensation of any kind,” to permit a more valid comparison between subjects.
+We believe this generalized labeled magnitude scale is still subject to ceiling effects, especially in studies that do not present examples of extremely strong stimuli at the beginning of the session.
+Because capsaicin irritation can Figure 5.
+The upper panel shows the median burn sensation that characterizes the pattern termed Cluster 3 (n � 9 subjects) from the group of subjects given ascending capsaicin stimulus concentrations.
+The lower panel shows the median burn sensation from the corresponding cluster of subjects (n � 8) from the group exposed to descending capsaicin stimulus concentrations.
+The curves on each panel show the ﬁt of a model with a single set of parameters to the responses.
+The least squares estimates of the 3 gains in the model are listed in the ﬁgure.
+grow considerably over time, especially for integrators and for higher concentrations,14 we believe that free magnitude estimation is preferable in studies of the time course of capsaicin irritation.
+Of course, the normalization of data used in the present study thereby ignores individual differences in magnitude of pain.
+In our previous studies, the time course of the subjective burning sensation to oral capsaicin was modeled explicitly as a linear sum of 3 underlying processes: a tonic mechanism, a phasic mechanism, and an integrator component.
+This study provided one reﬁnement of the model structure for a previously unexplored experimental condition, a precipitous decrease in capsaicin concentration.
+Under these conditions, the integrator process appears to discharge.
+When the discharging of the integrating component is incorporated, the results of this study support the adequacy of this linear modeling approach because the 3 phenotypic responses could be modeled effectively as distinct linear sums of the 3 component processes.
+It is also noteworthy that the model used in this study was highly constrained and had only 3 free parameters.
+Speciﬁcally, the time constants of these processes and the psychophysical scaling factors of each process for capsaicin concentration were ﬁxed by estimates from our earlier studies.
+Because our initial study found that the tonic component and the integrator component show long-term adaptation to capsaicin exposure, the response phenotypes likely represent an interaction between genetics and history of exposure.
+Our previous data14 indicate that response phenotypes are stable for separate applications of different concentrations of capsaicin, separated by at least a 1-week interval.
+Fast et al8 and Prutkin et al16 have extensively documented the importance of 6-N-propylthiouracil (PROP) and/or phenylthiocarbamide (PTC) sensitivity as a predictor of individual differences in taste and oral irritant sensitivity.
+The inability to taste PROP or PTC was originally with homozygous PROP tasters displaying highest sensitivity.
+11,17 Genetic linkage studies7,10,12,17,18 have presented evidence for loci on chromosomes 7q, 16p, and 5p.
+Positional cloning studies by Drayna et al6,7 and Kim et al12 have identiﬁed 3 distinct polymorphisms within the PTC gene on chromosome 7q, which affect amino acids 49, 262, and 296 of the TAS2R receptor protein.
+They also demonstrated that distinct haplotypes are associated with different sensitivities to PTC and PROP, so that expression of the PAV haplotype is associated with high PROP sensitivity.
+Because one of our previous studies13 indicated that PROP taster status is associated with Figure 6.
+Discriminant factor scores (Table 1) provide a distinct classiﬁcation of 3 subject response populations.
+6827 (1 standard deviation) conﬁdence ellipse, centered around the mean, is indicated for each cluster.
+These discriminant functions might be used to classify subjects as level detectors (Cluster 1), change detectors (Cluster 2), or cumulative irritation detectors (Cluster 3).
+a rising capsaicin response phenotype, a temporal classiﬁcation of oral irritant responses might be a powerful approach for identifying genetic linkages of individual differences in oral sensation.
